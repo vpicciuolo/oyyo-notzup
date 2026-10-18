@@ -1,0 +1,4 @@
+<!-- Copyright (c) 2026 Vincenzo Picciuolo - HRN INNOVATION TECHNOLOGIES LTD -->
+
+# Editions, storage and privacy
+Free: local-first and registered 10 MB cloud text/Markdown/transcripts, raw media local by default. Free+Storage: purchasable storage upgrade while retaining the Free edition, with limited logo/theme branding. Plus and Pro personal subscription prices TBD. Organizations: USD 250/month base + USD 9/month per active billed seat, pooled 50GB baseline, optional 100GB/500GB storage tiers prices TBD. These are intended future offers, not presently active checkout. Consent and legal recording obligations apply to native capture; historical third-party assets require authorized account scopes.

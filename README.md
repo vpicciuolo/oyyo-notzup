@@ -1,53 +1,58 @@
-<!-- Copyright (c) 2026 Vincenzo Picciuolo - HRN INNOVATION TECHNOLOGIES LTD -->
 <div align="center">
-  <h1>⚡ NotzUp <sub>by oyyo</sub></h1>
-  <h3>Capture anything. Make it useful.</h3>
-  <p>Record audio, video and your screen. Organize ideas, sessions, transcripts and documents. Turn your content into actions and AI-ready knowledge.</p>
-  <p><a href="https://oyyo.one">OYYO ONE AI</a> · <a href="https://hrn.ae">HRN Innovation Technologies LTD</a></p>
-  <p><img src="https://img.shields.io/badge/status-development-blue?style=for-the-badge" alt="Development">
-  <img src="https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android%20%7C%20iOS-6d28d9?style=for-the-badge" alt="Platforms targeted">
-  <img src="https://img.shields.io/badge/Free%20%2B%20Pro%20%2B%20Teams-planned-059669?style=for-the-badge" alt="Planned editions"></p>
+
+# OYYO NotzUP
+
+### Capture locally. Understand more. Share what matters.
+
+**Windows · macOS · Linux · Android · iOS (planned)**
+
+[OYYO ONE AI](https://oyyo.one) · [HRN Innovation Technologies LTD](https://hrn.ae) · [Release downloads](../../releases) · [Issues](../../issues)
+
+![Development](https://img.shields.io/badge/status-development-4F46E5?style=for-the-badge)
+![Private core](https://img.shields.io/badge/core-source%20private-111827?style=for-the-badge)
+![Local-first](https://img.shields.io/badge/inference-local%20device-059669?style=for-the-badge)
+
 </div>
 
-> **Current status:** NotzUp is in active development. **No verified downloadable production builds have been released in this repository yet.** Do not download artifacts from unofficial sources.
+## What is OYYO NotzUP?
 
-## 🌟 What is NotzUp?
-NotzUp is an independent, local-first capture and intelligence application from OYYO. It handles freeform notes, conversations, source recordings, screen capture, transcriptions, saved content from connected services, and structured exports for AI assistants.
+A privacy-focused local capture, transcription, scheduling, knowledge and collaboration application. Turn authorized recordings, screens, conversations, text and existing recordings into editable summaries, tasks and AI-ready Markdown packs, on your own device.
 
-- **Capture** — microphone, camera, screen and supported system audio, with clear permission indicators.
-- **Organize** — a searchable library across recordings, text, imported files and provider history.
-- **Understand** — transcripts, speaker segments, decisions, summaries, tasks, risks and topics.
-- **Share** — Markdown AI Context Packs, PDF, text and machine-readable formats.
-- **Schedule** — personal booking pages, invitations and availability management.
-- **Connect** — supported service APIs and explicit user-authorized AI handoff.
-- **Stay in control** — offline/local processing choices, private content, export and deletion.
+- **Your device, your intelligence:** recording, transcription, speaker processing, summaries, semantic search and AI run locally; no automatic cloud bots or remote-model fallback.
+- **Record what you choose:** device-permitted microphone, screen, camera and system audio; Android and iOS restrictions apply.
+- **Stay organized:** sessions, file history, actions, connected services, projects, source-linked output.
+- **Book time easily:** public availability pages and booking links, calendar files and notification workflows.
+- **Share safely:** manually approved summaries, secure links and recipient-specific access; invitations never silently create verified accounts.
+- **Use it across devices:** centrally managed account and settings, with optional expressly approved content synchronization.
 
-## ⬇️ Downloads and install guides
-**Releases will appear at [GitHub Releases](../../releases) only after signed builds pass security and platform QA.** This repository will host official binaries, checksums, Linux installation scripts, platform guides, public changelogs, FAQ and project information. It is **not** the commercial source repository.
+## 📦 Release downloads
+**There are no verified production downloads available yet.** Official Windows, macOS, Linux, Android and iOS releases appear here only after signature, platform and privacy tests. See [Releases](../../releases). Never trust unofficial installers.
 
-| Platform | Distribution goal | Availability |
+| Platform | Planned delivery | Status |
 | --- | --- | --- |
 | Windows | Signed installer | In development |
-| macOS | Signed, notarized image | In development |
-| Linux | .deb / AppImage / Flatpak where supported | In development |
-| Android | Google Play AAB | In development |
-| iPhone / iPad | App Store | In development |
+| macOS | Signed and notarized application | In development |
+| Linux | Audited .deb/AppImage/Flatpak or distro packages | In development |
+| Android | Google Play | In development |
+| iOS/iPadOS | Apple App Store | In development |
 
-## 💎 Plans
-- **Free:** Useful local capture and notes; registered accounts get **10 MB cloud text/Markdown/transcript storage**.
-- **Free + Storage:** Keep the Free edition and add only storage, with limited branding/personalization.
-- **Plus / Pro:** Additional personal capacity, connected sources and intelligent features (final prices to be published).
-- **NotzUp Organizations:** **$250/month platform fee + $9/month per active billed seat**, with **50 GB** pooled storage baseline and optional **100 GB / 500 GB** capacity upgrades (upgrade prices to be published).
+## 💠 Pricing roadmap
+| Plan | Monthly price | Optional cloud content | Session processing | Bookings | Registered runtimes |
+|---|---:|---:|---:|---:|---:|
+| Free | $0 | 50 MB | up to 26 min/session | 10/month | 2 |
+| Plus | $5.99 | 500 MB | no commercial duration cap | 30/month | 5 |
+| Pro | $9.99 | 2 GB proposed | no commercial duration cap | unlimited* | 10 |
 
-All purchases and feature entitlements will be enforced through the secure backend when released.
+`*` Unlimited refers to the commercial booking count, not anti-abuse, OS or computing resources. Pro storage, annual discounts and organization packages remain subject to final approval. Separate storage expansion should not change the core feature plan. **Live checkout is not enabled by this documentation.**
 
-## 🔒 Privacy and limitations
-The app will ask permission for microphone, camera and screen capture, and show active-capture indicators. Recording policies vary by jurisdiction. Mobile OS limitations can prevent capturing audio played by other apps; authorized provider recordings and transcripts are a separate supported approach, subject to account scopes, API availability and plans. Direct AI APIs differ from opening a new consumer ChatGPT/Claude/Gemini chat.
+## 📚 Guides
+[Get started](docs/GETTING_STARTED.md) · [Linux](docs/INSTALL_LINUX.md) · [Desktop](docs/INSTALL_DESKTOP.md) · [Mobile](docs/INSTALL_MOBILE.md) · [AI Context Packs](docs/AI_CONTEXT_PACKS.md) · [Plans and privacy](docs/PRICING_AND_PRIVACY.md) · [FAQ](docs/FAQ.md) · [Security](SECURITY.md)
 
-## 🧭 Navigation
-[Releases](../../releases) · [Issues](../../issues) · [OYYO ONE AI](https://oyyo.one) · [Support development](https://hrn.ae/githubsupport)
+## 🤝 Open information and private development
+This repository contains **public project information, installation scripts, verified release assets, documentation and public issue tracking only**. The proprietary source, billing, security migrations, commercial features and internal tests live in a private development repository; they are **not** mirrored here.
 
-Documentation, setup guides and actual release asset links will be published here as components are verified. This repo intentionally excludes private source code, secrets, internal architecture, enterprise deployment configuration and premium backend logic.
+NotzUP is independently developed under OYYO ONE AI by HRN INNOVATION TECHNOLOGIES LTD. It is not affiliated with Zoom, Google, Microsoft, OpenAI or Anthropic; provider integrations require authorization and approved API access.
 
 ---
-© 2026 Vincenzo Picciuolo - HRN INNOVATION TECHNOLOGIES LTD. All rights reserved. Product concept, name and brand belong to their respective owners. Not affiliated with Zoom, Google, Microsoft, OpenAI or Anthropic.
+
+**© 2026 HRN INNOVATION TECHNOLOGIES LTD** · [hrn.ae](https://hrn.ae)

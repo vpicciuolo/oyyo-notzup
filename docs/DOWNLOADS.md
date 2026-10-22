@@ -8,11 +8,11 @@ This page lists every official OYYO NotzUP installation channel. A button or pac
 
 ## Current availability
 
-OYYO NotzUP is in release preparation. A signed Android 1.0.0 pre-release is available on the public [GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android); Google Play certification is still in progress. Windows, macOS, iOS and Linux direct production packages are not public yet. Do not install an unsigned build or a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
+OYYO NotzUP is available for Windows from the official [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN). A signed Android 1.0.0 pre-release is also available on the public [GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android); Google Play certification is still in progress. macOS, iOS and Linux production packages are not public yet. Do not install an unsigned build or a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
 
 | Platform | Store installation | Direct installation | Status |
 | --- | --- | --- | --- |
-| Windows 10/11 x64 | Microsoft Store link appears here after certification | `OYYO-NotzUP-Windows-x64.msix`, `.msi`, and `.exe` release assets | Store MSIX in preparation; direct MSI/EXE require a valid production signature |
+| Windows 10/11 x64 | [Get OYYO AI NotzUP from Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | MSI and EXE will be attached to a versioned Windows release after trusted Authenticode signing | **Store available now**; direct MSI/EXE are built but intentionally withheld until signed |
 | macOS | Mac App Store link appears here after review | `OYYO-NotzUP-macOS-universal.dmg` | Requires Apple Developer ID signing and notarization |
 | Android | Google Play link appears here after review | [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) · [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release; Play closed testing/review in progress |
 | iPhone and iPad | Apple App Store link appears here after review | Not offered as a public sideload package | In preparation |
@@ -21,7 +21,9 @@ OYYO NotzUP is in release preparation. A signed Android 1.0.0 pre-release is ava
 
 ## Windows
 
-The free Microsoft Store route uses an MSIX package that Microsoft signs and hosts after certification. The public listing will be linked here when it is live.
+The free Microsoft Store route uses an MSIX package signed and hosted through Microsoft. The public listing is live:
+
+**[Download OYYO AI NotzUP from Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN)**
 
 GitHub Releases will also offer direct formats when their separate release gates pass:
 
@@ -29,7 +31,7 @@ GitHub Releases will also offer direct formats when their separate release gates
 - **MSI** for managed and traditional desktop deployment.
 - **EXE** for the guided desktop installer.
 
-The Store package and direct MSI/EXE installers are different distribution channels. Microsoft Store certification does not automatically sign a separately hosted MSI or EXE.
+The Store package and direct MSI/EXE installers are different distribution channels. Microsoft Store certification does not automatically sign a separately hosted MSI or EXE. The version 1.0.0 MSI and EXE have been built, but their Authenticode status is currently `NotSigned`; they are therefore not published as production downloads. Once a trusted code-signing certificate is available, both files will be signed, malware-scanned, installation-tested, checksummed and attached to an immutable Windows GitHub Release.
 
 ## macOS
 

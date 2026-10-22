@@ -1,12 +1,18 @@
 <div align="center">
 
+<img src="assets/oyyo-notzup-hero.png" alt="OYYO NotzUP private local AI capture and knowledge workspace" width="100%">
+
 # OYYO NotzUP
 
 ## Private capture, audio and music analysis, visual understanding and offline transcription in one workspace
 
 **Capture anything. Understand it locally.**
 
-[Download options](docs/DOWNLOADS.md) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [Recording-controls demo](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-NotzUP-Android-recording-controls-demo.mp4) · [Verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[![Get it from Microsoft](https://img.shields.io/badge/Microsoft%20Store-Get%20OYYO%20AI%20NotzUP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9NX0604FJ0XN)
+[![Android direct download](https://img.shields.io/badge/Android-Signed%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android)
+[![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
+
+[Download options](docs/DOWNLOADS.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [Recording-controls demo](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-NotzUP-Android-recording-controls-demo.mp4) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -58,13 +64,13 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 
 | Platform | Store channel | Direct GitHub download | Current availability |
 | --- | --- | --- | --- |
-| Windows 10/11 x64 | Microsoft Store | MSIX, MSI and EXE | Store package in preparation; signed direct installers are not public yet |
+| Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | MSI and EXE after trusted Authenticode signing | **Available now from Microsoft Store**; direct installers are built but not public until signed |
 | macOS | Mac App Store | Signed and notarized DMG | In preparation |
 | Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release available; public Play listing pending |
 | iPhone and iPad | Apple App Store | No public sideload package | In preparation |
 | Linux x64 | — | AppImage, DEB and CLI archive | In preparation |
 
-Store names become clickable only after the corresponding public listing exists. Direct format names become clickable only after the signed package and its checksum are attached to a verified GitHub Release. This avoids broken links and prevents an unsigned test build from being mistaken for a production download.
+The Windows Store link is live. Other Store names become clickable only after the corresponding public listing exists. Direct format names become clickable only after the signed package and its checksum are attached to a verified GitHub Release. This avoids broken links and prevents an unsigned test build from being mistaken for a production download.
 
 Every direct desktop release will include:
 
@@ -76,7 +82,7 @@ Every direct desktop release will include:
 
 ## Quick start
 
-1. Choose a live Store or direct package on the [Download options](docs/DOWNLOADS.md) page.
+1. Install Windows from the [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN), or choose another live package on the [Download options](docs/DOWNLOADS.md) page.
 2. For a direct Android APK, compare its SHA-256 checksum and signing-certificate digest with the tagged release. For Windows, install through Microsoft Store or verify the trusted publisher signature when a direct signed package becomes available.
 3. Open NotzUP and approve only the microphone, screen, camera or notification permissions needed for the capture you choose.
 4. Allow the verified local speech model to download and pass integrity verification on first use.
@@ -134,8 +140,8 @@ Open **Connectors**, select a provider and review the requested permissions. The
 
 ## Product and publisher
 
-OYYO NotzUP is developed as part of **[OYYO ONE AI](https://oyyo.one/)** by **HRN INNOVATION TECHNOLOGIES LTD**. The Windows Store publisher is **Vincenzo Picciuolo**. NotzUP is not affiliated with Google, Microsoft, Zoom, Slack, OpenAI or Anthropic. Provider names and marks identify optional compatible integrations and remain the property of their respective owners.
+OYYO NotzUP is developed as part of **[OYYO ONE AI](https://oyyo.one/)** by **[HRN INNOVATION TECHNOLOGIES LTD](https://hrn.ae/)**. NotzUP is not affiliated with Google, Microsoft, Zoom, Slack, OpenAI or Anthropic. Provider names and marks identify optional compatible integrations and remain the property of their respective owners.
 
-**© 2026 HRN INNOVATION TECHNOLOGIES LTD**
+**[© 2026 HRN INNOVATION TECHNOLOGIES LTD](https://hrn.ae/)**
 
 

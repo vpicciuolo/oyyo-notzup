@@ -16,6 +16,8 @@
 
 OYYO NotzUP is the private capture and knowledge workspace inside **OYYO ONE AI** for Windows, macOS, Linux, Android and iOS. Record audio or a permitted screen, save screenshots, scan with the camera, import documents, images, music and video, or keep text and links. Then use on-device intelligence to transcribe speech, draft lyrics or spoken words, analyze music and sound, describe visuals, translate, search, summarize and turn each source into useful, reviewable work. Local originals remain under your control and stay on your device unless you explicitly choose a connected or online feature.
 
+**Local OYYO AI Core — running privately on your device.**
+
 > Official production downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases) after platform signing and release verification. Never trust an installer copied to an unofficial host.
 
 ## Why NotzUP

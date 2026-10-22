@@ -6,7 +6,7 @@
 
 **Capture anything. Understand it locally.**
 
-[Download verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [Verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -54,24 +54,29 @@ Feature availability depends on the operating system, hardware, source applicati
 
 ## Download and verify
 
-| Platform | Official channel | Status |
-| --- | --- | --- |
-| Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/) and [GitHub Releases](https://github.com/vpicciuolo/oyyo-notzup/releases) | Release candidate undergoing signing and Store certification |
-| Android | Google Play | Submission begins after the Windows Store submission succeeds |
-| macOS | Signed and notarized DMG / App Store | In preparation |
-| Linux | Signed package / AppImage | In preparation |
-| iPhone and iPad | Apple App Store | In preparation |
+The [Download options](docs/DOWNLOADS.md) page is the canonical availability list. It keeps the Store and direct-download routes separate so you can choose the installation method that fits your device.
+
+| Platform | Store channel | Direct GitHub download | Current availability |
+| --- | --- | --- | --- |
+| Windows 10/11 x64 | Microsoft Store | MSIX, MSI and EXE | Store package in preparation; signed direct installers are not public yet |
+| macOS | Mac App Store | Signed and notarized DMG | In preparation |
+| Android | Google Play | Signed APK | Submission begins after the Windows Store submission succeeds |
+| iPhone and iPad | Apple App Store | No public sideload package | In preparation |
+| Linux x64 | — | AppImage, DEB and CLI archive | In preparation |
+
+Store names become clickable only after the corresponding public listing exists. Direct format names become clickable only after the signed package and its checksum are attached to a verified GitHub Release. This avoids broken links and prevents an unsigned test build from being mistaken for a production download.
 
 Every direct desktop release will include:
 
 1. A versioned, immutable GitHub Release asset.
-2. Platform signature verification instructions.
+2. Platform signature or notarization verification instructions.
 3. SHA-256 checksums and release notes.
 4. A statement of supported operating-system versions and architectures.
+5. Stable file naming for MSI, EXE, DMG, APK, AppImage, DEB and CLI packages where applicable.
 
 ## Quick start
 
-1. Download the signed installer from the [official Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases) or the platform store.
+1. Choose a live Store or direct package on the [Download options](docs/DOWNLOADS.md) page.
 2. Confirm that the Windows signature shows **Vincenzo Picciuolo** as the publisher before installing.
 3. Open NotzUP and approve only the microphone, screen, camera or notification permissions needed for the capture you choose.
 4. Allow the verified local speech model to download and pass integrity verification on first use.

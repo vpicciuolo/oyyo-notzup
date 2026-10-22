@@ -9,6 +9,7 @@
 **Capture anything. Understand it locally.**
 
 [![Get it from Microsoft](https://img.shields.io/badge/Microsoft%20Store-Get%20OYYO%20AI%20NotzUP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9NX0604FJ0XN)
+[![Windows direct installer](https://img.shields.io/badge/Windows-Direct%20installer%20(unsigned)-2563EB?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows)
 [![Android direct download](https://img.shields.io/badge/Android-Signed%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android)
 [![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
 
@@ -24,7 +25,7 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 
 **Local OYYO AI Core — running privately on your device.**
 
-> Official production downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases) after platform signing and release verification. Never trust an installer copied to an unofficial host.
+> Official direct downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). The Microsoft Store package is signed by Microsoft. Windows 1.0.0 direct EXE/MSI files are intentionally published **unsigned** as a separate manual-install option and can trigger Microsoft Defender SmartScreen. Never trust an installer copied to an unofficial host.
 
 ## Why NotzUP
 
@@ -64,13 +65,13 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 
 | Platform | Store channel | Direct GitHub download | Current availability |
 | --- | --- | --- | --- |
-| Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | MSI and EXE after trusted Authenticode signing | **Available now from Microsoft Store**; direct installers are built but not public until signed |
+| Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | [Setup EXE](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64-Setup.exe) · [MSI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64.msi) | **Store available**; direct installers are unsigned and require manual approval on some PCs |
 | macOS | Mac App Store | Signed and notarized DMG | In preparation |
 | Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release available; public Play listing pending |
 | iPhone and iPad | Apple App Store | No public sideload package | In preparation |
 | Linux x64 | — | AppImage, DEB and CLI archive | In preparation |
 
-The Windows Store link is live. Other Store names become clickable only after the corresponding public listing exists. Direct format names become clickable only after the signed package and its checksum are attached to a verified GitHub Release. This avoids broken links and prevents an unsigned test build from being mistaken for a production download.
+The Windows Store link is the recommended trusted route. Other Store names become clickable only after the corresponding public listing exists. The Windows direct installers are provided for users who explicitly prefer a traditional setup wizard or MSI and understand that version 1.0.0 is not Authenticode-signed.
 
 ### Install Windows from the command line
 
@@ -80,12 +81,18 @@ Windows users can install the same Microsoft-signed Store package without openin
 winget install 9NX0604FJ0XN --source msstore --accept-package-agreements --accept-source-agreements
 ```
 
-This command downloads OYYO AI NotzUP directly from Microsoft. It is the free trusted manual-install route while separately hosted MSI and EXE packages await organization-validated Authenticode signing.
+This command downloads OYYO AI NotzUP directly from Microsoft and avoids the warning shown by the unsigned direct installers.
+
+### Install Windows with the traditional setup wizard
+
+Download the [version 1.0.0 Setup EXE](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64-Setup.exe). It is the normal guided installer and includes the required WebView2 runtime for offline installation. The alternative [MSI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64.msi) is intended for traditional or managed deployment.
+
+Version 1.0.0 direct Windows installers are **not Authenticode-signed**. If Microsoft Defender SmartScreen appears, confirm that the file came from this repository, compare its SHA-256 checksum with the release checksum file, select **More info**, verify the displayed app name, and choose **Run anyway** only if you accept the unsigned-install risk. The dialog cannot show HRN INNOVATION TECHNOLOGIES LTD as a verified publisher until a trusted organization-validation certificate is available.
 
 Every direct desktop release will include:
 
 1. A versioned, immutable GitHub Release asset.
-2. Platform signature or notarization verification instructions.
+2. The signature status and any operating-system warning are disclosed beside the download.
 3. SHA-256 checksums and release notes.
 4. A statement of supported operating-system versions and architectures.
 5. Stable file naming for MSI, EXE, DMG, APK, AppImage, DEB and CLI packages where applicable.
@@ -93,7 +100,7 @@ Every direct desktop release will include:
 ## Quick start
 
 1. Install Windows from the [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN), or choose another live package on the [Download options](docs/DOWNLOADS.md) page.
-2. For a direct Android APK, compare its SHA-256 checksum and signing-certificate digest with the tagged release. For Windows, install through Microsoft Store or verify the trusted publisher signature when a direct signed package becomes available.
+2. For a direct Android APK, compare its SHA-256 checksum and signing-certificate digest with the tagged release. For a direct Windows installer, compare the SHA-256 checksum and review the unsigned-install warning before manually approving SmartScreen.
 3. Open NotzUP and approve only the microphone, screen, camera or notification permissions needed for the capture you choose.
 4. Allow the verified local speech model to download and pass integrity verification on first use.
 5. Select **Capture anything**, choose a source, name the session and start.

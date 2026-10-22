@@ -4,7 +4,9 @@
 
 ## What is OYYO NotzUP?
 
-OYYO NotzUP is a local-first capture and knowledge app. It brings audio recording, screen capture, screenshots, scans, file import, text capture, offline transcription, local search, calendar activity and authorized provider connectors into one workspace.
+OYYO NotzUP is the private capture and knowledge app inside [OYYO ONE AI](https://oyyo.one/). It brings audio recording, permitted screen capture, screenshots, scans, file import, text capture, offline transcription, local search, calendar activity and authorized provider connectors into one workspace.
+
+**Local OYYO AI Core — running privately on your device.**
 
 ## Is NotzUP only for meetings?
 
@@ -13,6 +15,18 @@ No. It can help with meetings, calls, classes, interviews, voice notes, product 
 ## Does NotzUP upload my recordings for AI processing?
 
 Supported transcription, extraction, search and generated outputs run on the device. There is no hidden cloud-inference fallback. Optional account sync and storage are separate features that require the user’s choice and remain subject to the plan and privacy policy.
+
+## Can NotzUP analyze music or create a lyrics draft?
+
+For audio or music you are permitted to analyze, NotzUP can create a tentative lyrics or spoken-word draft and report grounded sound facts such as duration, sample rate, channels, estimated tempo, tonal estimate and dynamic range. Sung-word recognition can be unreliable over instruments or background audio, so review the draft against the original. NotzUP does not fetch or reproduce third-party lyrics catalogs.
+
+## Can NotzUP describe images?
+
+Yes, when a compatible verified local vision pack is installed. Imported images, screenshots and camera scans can produce a scene description, alt text and approved object labels locally on the device.
+
+## Can NotzUP summarize or translate captured material?
+
+Supported sources can produce reviewable summaries, explanations, action items, clean text, Markdown and structured JSON. Installed local language packs can translate supported outputs offline. Every generated result remains tied to its captured source for review.
 
 ## Can I use NotzUP without an account?
 

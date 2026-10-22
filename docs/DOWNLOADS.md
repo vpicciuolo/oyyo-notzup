@@ -8,13 +8,13 @@ This page lists every official OYYO NotzUP installation channel. A button or pac
 
 ## Current availability
 
-OYYO NotzUP is in release preparation. There is not yet a production package on the public [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). Do not install an unsigned build or a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
+OYYO NotzUP is in release preparation. A signed Android 1.0.0 pre-release is available on the public [GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android); Google Play certification is still in progress. Windows, macOS, iOS and Linux direct production packages are not public yet. Do not install an unsigned build or a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
 
 | Platform | Store installation | Direct installation | Status |
 | --- | --- | --- | --- |
 | Windows 10/11 x64 | Microsoft Store link appears here after certification | `OYYO-NotzUP-Windows-x64.msix`, `.msi`, and `.exe` release assets | Store MSIX in preparation; direct MSI/EXE require a valid production signature |
 | macOS | Mac App Store link appears here after review | `OYYO-NotzUP-macOS-universal.dmg` | Requires Apple Developer ID signing and notarization |
-| Android | Google Play link appears here after review | `OYYO-NotzUP-Android.apk` | Requires release signing and mobile QA |
+| Android | Google Play link appears here after review | [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) · [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release; Play closed testing/review in progress |
 | iPhone and iPad | Apple App Store link appears here after review | Not offered as a public sideload package | In preparation |
 | Linux x64 | — | `OYYO-NotzUP-Linux-x86_64.AppImage` and `.deb` | In preparation |
 | Command line | — | Windows, macOS and Linux CLI archives | In preparation |
@@ -37,7 +37,9 @@ The Mac App Store listing will be linked here after review. A direct universal D
 
 ## Android
 
-The Google Play listing will be linked here after review. A direct APK may also be attached to a verified GitHub Release after Android release signing and device QA. The APK signature must match future updates; never install an APK copied to another host.
+The Google Play listing will be linked here after review. The signed Android 1.0.0 pre-release is available from the [tagged GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android): use the [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) for most current phones or the larger [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) when architecture compatibility is uncertain. Watch the [real recording-controls demonstration](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-NotzUP-Android-recording-controls-demo.mp4) for the Android consent flow, screen and microphone foreground services, floating control, and persistent notification controls.
+
+The published APKs use Android signature scheme v2. Verify the release checksum and signing-certificate SHA-256 digest `903bf05e2578775a0c66e85f540b6dd36cf6f55c5d9f1f3896eb72b6ad18c15b`. The APK signature must match future direct updates; never install an APK copied to another host.
 
 ## iPhone and iPad
 
@@ -74,7 +76,8 @@ Linux or Android package checksum:
 
 ```bash
 sha256sum OYYO-NotzUP-Linux-x86_64.AppImage
-sha256sum OYYO-NotzUP-Android.apk
+sha256sum OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk
+sha256sum OYYO-AI-NotzUP-Android-1.0.0-universal.apk
 ```
 
 ## Release policy

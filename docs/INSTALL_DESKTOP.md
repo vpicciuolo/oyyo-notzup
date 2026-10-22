@@ -2,6 +2,8 @@
 
 # Install OYYO NotzUP on Windows
 
+OYYO NotzUP is the private capture and knowledge app inside [OYYO ONE AI](https://oyyo.one/). Its **Local OYYO AI Core runs privately on your device** for supported transcription, music and audio analysis, visual descriptions, translation, search, summaries and grounded outputs.
+
 ## Requirements
 
 - Windows 10 or Windows 11, x64

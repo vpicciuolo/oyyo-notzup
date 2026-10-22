@@ -6,7 +6,7 @@
 
 **Capture anything. Understand it locally.**
 
-[Download options](docs/DOWNLOADS.md) · [Verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [Recording-controls demo](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-NotzUP-Android-recording-controls-demo.mp4) · [Verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -60,7 +60,7 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 | --- | --- | --- | --- |
 | Windows 10/11 x64 | Microsoft Store | MSIX, MSI and EXE | Store package in preparation; signed direct installers are not public yet |
 | macOS | Mac App Store | Signed and notarized DMG | In preparation |
-| Android | Google Play | Signed APK | Submission begins after the Windows Store submission succeeds |
+| Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release available; public Play listing pending |
 | iPhone and iPad | Apple App Store | No public sideload package | In preparation |
 | Linux x64 | — | AppImage, DEB and CLI archive | In preparation |
 
@@ -77,7 +77,7 @@ Every direct desktop release will include:
 ## Quick start
 
 1. Choose a live Store or direct package on the [Download options](docs/DOWNLOADS.md) page.
-2. Confirm that the Windows signature shows **Vincenzo Picciuolo** as the publisher before installing.
+2. For a direct Android APK, compare its SHA-256 checksum and signing-certificate digest with the tagged release. For Windows, install through Microsoft Store or verify the trusted publisher signature when a direct signed package becomes available.
 3. Open NotzUP and approve only the microphone, screen, camera or notification permissions needed for the capture you choose.
 4. Allow the verified local speech model to download and pass integrity verification on first use.
 5. Select **Capture anything**, choose a source, name the session and start.

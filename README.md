@@ -2,7 +2,7 @@
 
 # OYYO NotzUP
 
-## Private screen recording, audio capture and offline transcription in one workspace
+## Private capture, audio and music analysis, visual understanding and offline transcription in one workspace
 
 **Capture anything. Understand it locally.**
 
@@ -14,7 +14,7 @@
 
 </div>
 
-OYYO NotzUP is the private capture and knowledge workspace inside **OYYO ONE AI** for Windows, macOS, Linux, Android and iOS. Record a conversation, screen or voice note; save screenshots; scan a document; import supported files; or keep text and links. Then use on-device intelligence to transcribe, search and turn every source into useful, reviewable work. Local originals remain under your control and stay on your device unless you explicitly choose a connected or online feature.
+OYYO NotzUP is the private capture and knowledge workspace inside **OYYO ONE AI** for Windows, macOS, Linux, Android and iOS. Record audio or a permitted screen, save screenshots, scan with the camera, import documents, images, music and video, or keep text and links. Then use on-device intelligence to transcribe speech, draft lyrics or spoken words, analyze music and sound, describe visuals, translate, search, summarize and turn each source into useful, reviewable work. Local originals remain under your control and stay on your device unless you explicitly choose a connected or online feature.
 
 > Official production downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases) after platform signing and release verification. Never trust an installer copied to an unofficial host.
 
@@ -24,6 +24,9 @@ OYYO NotzUP is the private capture and knowledge workspace inside **OYYO ONE AI*
 - **Private local intelligence:** supported transcription, OCR, search and grounded outputs run on the device, without a hidden cloud-model fallback.
 - **A searchable source library:** find relevant transcript passages and return to their timestamped source context.
 - **Useful outputs you control:** review summaries, explanations, actions, Markdown and JSON before exporting or sharing.
+- **Audio and music understanding:** create review drafts of lyrics or spoken words and inspect duration, sample rate, channels, estimated tempo, tonal estimate and dynamic range.
+- **Grounded visual understanding:** use a compatible verified local vision pack for scene descriptions, alt text and approved object labels.
+- **Offline translation:** translate supported outputs with installed local language packs.
 - **Real provider consent:** connect supported Google, Microsoft, Zoom and Slack services only when you choose.
 - **Calendar and bookings:** review authorized calendars and booking activity in the same workspace.
 - **Fast access:** desktop controls, tray/menu-bar actions, Android Quick Settings and purpose-built widgets keep capture close.
@@ -35,6 +38,10 @@ OYYO NotzUP is the private capture and knowledge workspace inside **OYYO ONE AI*
 - Screenshot capture and supported local OCR
 - Broad PDF, Office, OpenDocument, text, image, audio and video import
 - Offline speech transcription with a verified local model
+- Review drafts of lyrics or spoken words from audio you are authorized to analyze
+- Local music and sound facts including tempo, tonal estimate and dynamic range
+- Grounded scene descriptions, alt text and approved object labels with a compatible local vision pack
+- Offline translation with installed language packs
 - Local transcript search with source context and citations
 - Reviewable summaries, explanations, action items, Markdown and JSON
 - Local SQLite metadata and OS application-data storage

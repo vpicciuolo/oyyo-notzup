@@ -16,8 +16,8 @@ OYYO NotzUP is available for Windows from the official [Microsoft Store](https:/
 | macOS | Mac App Store link appears here after review | `OYYO-NotzUP-macOS-universal.dmg` | Requires Apple Developer ID signing and notarization |
 | Android | Google Play link appears here after review | [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) · [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release; Play closed testing/review in progress |
 | iPhone and iPad | Apple App Store link appears here after review | Not offered as a public sideload package | In preparation |
-| Linux x64 | Snap Store link appears here after review | AppImage, DEB, RPM and CLI archive | Release validation in progress; no public Linux package yet |
-| Command line | — | Windows, macOS and Linux CLI archives | Linux CLI release validation in progress |
+| Linux x64 | Snap Store link appears here after review | AppImage, DEB, RPM and CLI archive | Ubuntu, Debian and Fedora VM validation passed; signing, physical QA and publication remain |
+| Command line | — | Windows, macOS and Linux CLI archives | Linux CLI VM validation passed; no public Linux archive yet |
 
 ## Windows
 

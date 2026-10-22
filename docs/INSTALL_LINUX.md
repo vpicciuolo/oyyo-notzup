@@ -2,9 +2,10 @@
 
 # Linux installation
 
-Status: Linux packages are in release validation and are not public yet. Do not
-install a copy hosted outside this repository, an approved store listing or
-[notzup.com](https://notzup.com/).
+Status: Linux x86-64 direct packages passed Ubuntu, Debian and Fedora virtual-
+machine validation, but signing, physical-device QA and publication are still
+pending. Do not install a copy hosted outside this repository, an approved
+store listing or [notzup.com](https://notzup.com/).
 
 The first x86-64 release is designed to provide:
 

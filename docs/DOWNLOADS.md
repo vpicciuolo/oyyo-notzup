@@ -16,8 +16,8 @@ OYYO NotzUP is available for Windows from the official [Microsoft Store](https:/
 | macOS | Mac App Store link appears here after review | `OYYO-NotzUP-macOS-universal.dmg` | Requires Apple Developer ID signing and notarization |
 | Android | Google Play link appears here after review | [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) · [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release; Play closed testing/review in progress |
 | iPhone and iPad | Apple App Store link appears here after review | Not offered as a public sideload package | In preparation |
-| Linux x64 | — | `OYYO-NotzUP-Linux-x86_64.AppImage` and `.deb` | In preparation |
-| Command line | — | Windows, macOS and Linux CLI archives | In preparation |
+| Linux x64 | Snap Store link appears here after review | AppImage, DEB, RPM and CLI archive | Release validation in progress; no public Linux package yet |
+| Command line | — | Windows, macOS and Linux CLI archives | Linux CLI release validation in progress |
 
 ## Windows
 
@@ -66,7 +66,13 @@ The Apple App Store is the supported public installation route. OYYO does not pu
 
 ## Linux and CLI
 
-Linux GUI releases are planned as an AppImage and DEB package. CLI archives will be labeled by operating system and architecture. Each direct package will include a SHA-256 checksum.
+Linux x86-64 release automation now targets AppImage, DEB, RPM, Snap and a
+standalone CLI archive. The DEB and RPM include `oyyo-notzup-cli`; the Snap
+exposes `oyyo-notzup.cli`. These packages are not public until clean-install,
+desktop-permission and physical audio tests pass. Each direct package will be
+published with a SHA-256 manifest and detached signature. See the
+[Linux installation guide](INSTALL_LINUX.md) and
+[distribution-channel plan](LINUX_DISTRIBUTION.md).
 
 ## Verify a direct download
 
@@ -94,7 +100,9 @@ spctl --assess --type open --context context:primary-signature -vv OYYO-NotzUP-m
 Linux or Android package checksum:
 
 ```bash
-sha256sum OYYO-NotzUP-Linux-x86_64.AppImage
+sha256sum OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage
+sha256sum OYYO-NotzUP-1.0.0-Linux-x86_64.deb
+sha256sum OYYO-NotzUP-1.0.0-Linux-x86_64.rpm
 sha256sum OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk
 sha256sum OYYO-AI-NotzUP-Android-1.0.0-universal.apk
 ```

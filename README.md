@@ -90,6 +90,18 @@ Choose **Audio** for microphone capture or **Screen recording** when you need a 
 
 Choose **Screenshot**, **Scan** or **Import a file**. Select the outputs you want—such as extracted text, summary, explanation, actions or Markdown—and review the evidence before exporting.
 
+### Analyze audio and music locally
+
+Import audio or music you are permitted to analyze. NotzUP can create a tentative lyrics or spoken-word draft and report grounded sound facts such as duration, sample rate, channels, estimated tempo, tonal estimate and dynamic range. Review every draft against the original: sung-word recognition can be unreliable over instruments or background audio, and NotzUP does not fetch or reproduce third-party lyrics catalogs.
+
+### Describe visuals and translate offline
+
+Open an imported image, screenshot or camera scan with a compatible verified local vision pack to produce a scene description, alt text and approved object labels. Installed language packs can translate supported outputs without sending the captured source to a cloud inference service.
+
+### Summarize any supported source
+
+From the source result, choose the outputs you need: summary, explanation, action items, clean text, Markdown or structured JSON. Each output stays tied to the source so you can review it before exporting or sharing.
+
 ### Search your private capture library
 
 Open **Library** and search for a person, phrase, decision or topic. NotzUP searches supported local transcript text and surrounding passages on the device.

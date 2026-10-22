@@ -6,7 +6,7 @@
 
 **Capture anything. Understand it locally.**
 
-[Download verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [Product website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -14,7 +14,7 @@
 
 </div>
 
-OYYO NotzUP is the private capture and knowledge workspace inside **OYYO ONE AI** for Windows, macOS, Linux, Android and iOS. Record audio or a permitted screen, save screenshots, scan with the camera, import documents, images, music and video, or keep text and links. Then use on-device intelligence to transcribe speech, draft lyrics or spoken words, analyze music and sound, describe visuals, translate, search, summarize and turn each source into useful, reviewable work. Local originals remain under your control and stay on your device unless you explicitly choose a connected or online feature.
+OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI](https://oyyo.one/)** for Windows, macOS, Linux, Android and iOS. Record audio or a permitted screen, save screenshots, scan with the camera, import documents, images, music and video, or keep text and links. Then use on-device intelligence to transcribe speech, draft lyrics or spoken words, analyze music and sound, describe visuals, translate, search, summarize and turn each source into useful, reviewable work. Local originals remain under your control and stay on your device unless you explicitly choose a connected or online feature.
 
 **Local OYYO AI Core — running privately on your device.**
 
@@ -129,7 +129,7 @@ Open **Connectors**, select a provider and review the requested permissions. The
 
 ## Product and publisher
 
-OYYO NotzUP is developed under OYYO ONE AI by **HRN INNOVATION TECHNOLOGIES LTD**. The Windows Store publisher is **Vincenzo Picciuolo**. NotzUP is not affiliated with Google, Microsoft, Zoom, Slack, OpenAI or Anthropic. Provider names and marks identify optional compatible integrations and remain the property of their respective owners.
+OYYO NotzUP is developed as part of **[OYYO ONE AI](https://oyyo.one/)** by **HRN INNOVATION TECHNOLOGIES LTD**. The Windows Store publisher is **Vincenzo Picciuolo**. NotzUP is not affiliated with Google, Microsoft, Zoom, Slack, OpenAI or Anthropic. Provider names and marks identify optional compatible integrations and remain the property of their respective owners.
 
 **© 2026 HRN INNOVATION TECHNOLOGIES LTD**
 

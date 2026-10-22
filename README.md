@@ -2,57 +2,114 @@
 
 # OYYO NotzUP
 
-### Capture locally. Understand more. Share what matters.
+## Private screen recording, audio capture and offline transcription in one workspace
 
-**Windows · macOS · Linux · Android · iOS (planned)**
+**Capture anything. Understand it locally.**
 
-[OYYO ONE AI](https://oyyo.one) · [HRN Innovation Technologies LTD](https://hrn.ae) · [Release downloads](../../releases) · [Issues](../../issues)
+[Download verified releases](https://github.com/vpicciuolo/oyyo-notzup/releases) · [Product website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
-![Development](https://img.shields.io/badge/status-development-4F46E5?style=for-the-badge)
-![Private core](https://img.shields.io/badge/core-source%20private-111827?style=for-the-badge)
-![Local-first](https://img.shields.io/badge/inference-local%20device-059669?style=for-the-badge)
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
+![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
+![Private core](https://img.shields.io/badge/source-proprietary-111827?style=for-the-badge)
 
 </div>
 
-## What is OYYO NotzUP?
+OYYO NotzUP is a local-first capture and knowledge app for Windows, macOS, Linux, Android and iOS. Record a conversation, screen or voice note; save screenshots; scan a document; import supported files; or keep text and links. Then transcribe, search and turn the captured source into useful, reviewable notes on your device.
 
-A privacy-focused local capture, transcription, scheduling, knowledge and collaboration application. Turn authorized recordings, screens, conversations, text and existing recordings into editable summaries, tasks and AI-ready Markdown packs, on your own device.
+> Official production downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases) after platform signing and release verification. Never trust an installer copied to an unofficial host.
 
-- **Your device, your intelligence:** recording, transcription, speaker processing, summaries, semantic search and AI run locally; no automatic cloud bots or remote-model fallback.
-- **Record what you choose:** device-permitted microphone, screen, camera and system audio; Android and iOS restrictions apply.
-- **Stay organized:** sessions, file history, actions, connected services, projects, source-linked output.
-- **Book time easily:** public availability pages and booking links, calendar files and notification workflows.
-- **Share safely:** manually approved summaries, secure links and recipient-specific access; invitations never silently create verified accounts.
-- **Use it across devices:** centrally managed account and settings, with optional expressly approved content synchronization.
+## Why NotzUP
 
-## 📦 Release downloads
-**There are no verified production downloads available yet.** Official Windows, macOS, Linux, Android and iOS releases appear here only after signature, platform and privacy tests. See [Releases](../../releases). Never trust unofficial installers.
+- **More than a screen recorder:** audio, screen, screenshot, scan, file and text capture live together.
+- **Private local intelligence:** supported transcription, OCR, search and grounded outputs run on the device, without a hidden cloud-model fallback.
+- **A searchable source library:** find relevant transcript passages and return to their timestamped source context.
+- **Useful outputs you control:** review summaries, explanations, actions, Markdown and JSON before exporting or sharing.
+- **Real provider consent:** connect supported Google, Microsoft, Zoom and Slack services only when you choose.
+- **Calendar and bookings:** review authorized calendars and booking activity in the same workspace.
+- **Fast access:** desktop controls, tray/menu-bar actions, Android Quick Settings and purpose-built widgets keep capture close.
 
-| Platform | Planned delivery | Status |
+## Windows features
+
+- Microphone audio recording and eligible Windows system-audio capture
+- Screen/window recording through the Windows permission flow
+- Screenshot capture and supported local OCR
+- Broad PDF, Office, OpenDocument, text, image, audio and video import
+- Offline speech transcription with a verified local model
+- Local transcript search with source context and citations
+- Reviewable summaries, explanations, action items, Markdown and JSON
+- Local SQLite metadata and OS application-data storage
+- System-language detection plus an in-app language selector
+- Consent-controlled privacy-safe analytics that excludes captured content
+
+Feature availability depends on the operating system, hardware, source application, provider scopes and installed local models. Mobile operating systems can restrict capture of protected, cellular and third-party app audio.
+
+## Download and verify
+
+| Platform | Official channel | Status |
 | --- | --- | --- |
-| Windows | Signed installer | In development |
-| macOS | Signed and notarized application | In development |
-| Linux | Audited .deb/AppImage/Flatpak or distro packages | In development |
-| Android | Google Play | In development |
-| iOS/iPadOS | Apple App Store | In development |
+| Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/) and [GitHub Releases](https://github.com/vpicciuolo/oyyo-notzup/releases) | Release candidate undergoing signing and Store certification |
+| Android | Google Play | Submission begins after the Windows Store submission succeeds |
+| macOS | Signed and notarized DMG / App Store | In preparation |
+| Linux | Signed package / AppImage | In preparation |
+| iPhone and iPad | Apple App Store | In preparation |
 
-## 💠 Pricing roadmap
-| Plan | Monthly price | Optional cloud content | Session processing | Bookings | Registered runtimes |
-|---|---:|---:|---:|---:|---:|
-| Free | $0 | 50 MB | up to 26 min/session | 10/month | 2 |
-| Plus | $5.99 | 500 MB | no commercial duration cap | 30/month | 5 |
-| Pro | $9.99 | 2 GB proposed | no commercial duration cap | unlimited* | 10 |
+Every direct desktop release will include:
 
-`*` Unlimited refers to the commercial booking count, not anti-abuse, OS or computing resources. Pro storage, annual discounts and organization packages remain subject to final approval. Separate storage expansion should not change the core feature plan. **Live checkout is not enabled by this documentation.**
+1. A versioned, immutable GitHub Release asset.
+2. Platform signature verification instructions.
+3. SHA-256 checksums and release notes.
+4. A statement of supported operating-system versions and architectures.
 
-## 📚 Guides
-[Get started](docs/GETTING_STARTED.md) · [Linux](docs/INSTALL_LINUX.md) · [Desktop](docs/INSTALL_DESKTOP.md) · [Mobile](docs/INSTALL_MOBILE.md) · [AI Context Packs](docs/AI_CONTEXT_PACKS.md) · [Plans and privacy](docs/PRICING_AND_PRIVACY.md) · [FAQ](docs/FAQ.md) · [Security](SECURITY.md)
+## Quick start
 
-## 🤝 Open information and private development
-This repository contains **public project information, installation scripts, verified release assets, documentation and public issue tracking only**. The proprietary source, billing, security migrations, commercial features and internal tests live in a private development repository; they are **not** mirrored here.
+1. Download the signed installer from the [official Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases) or the platform store.
+2. Confirm that the Windows signature shows **Vincenzo Picciuolo** as the publisher before installing.
+3. Open NotzUP and approve only the microphone, screen, camera or notification permissions needed for the capture you choose.
+4. Allow the verified local speech model to download and pass integrity verification on first use.
+5. Select **Capture anything**, choose a source, name the session and start.
+6. Stop and save, then review the original, transcript and selected outputs in **Library**.
 
-NotzUP is independently developed under OYYO ONE AI by HRN INNOVATION TECHNOLOGIES LTD. It is not affiliated with Zoom, Google, Microsoft, OpenAI or Anthropic; provider integrations require authorization and approved API access.
+See the detailed [Getting Started guide](docs/GETTING_STARTED.md) and [desktop installation guide](docs/INSTALL_DESKTOP.md).
 
----
+## Common workflows
 
-**© 2026 HRN INNOVATION TECHNOLOGIES LTD** · [hrn.ae](https://hrn.ae)
+### Record and transcribe a meeting without a bot
+
+Choose **Audio** for microphone capture or **Screen recording** when you need a permitted app/window and eligible system audio. Keep the recording indicator visible, stop and save, then run the verified local transcription model. Always obtain participant consent and follow applicable recording law and workplace policy.
+
+### Turn a document or screenshot into useful notes
+
+Choose **Screenshot**, **Scan** or **Import a file**. Select the outputs you want—such as extracted text, summary, explanation, actions or Markdown—and review the evidence before exporting.
+
+### Search your private capture library
+
+Open **Library** and search for a person, phrase, decision or topic. NotzUP searches supported local transcript text and surrounding passages on the device.
+
+### Connect a calendar or content service
+
+Open **Connectors**, select a provider and review the requested permissions. The provider’s OAuth screen controls consent. Available data depends on the scopes and administrator policy for that account.
+
+## Privacy at a glance
+
+- Local recordings and imported media remain on the device unless you explicitly choose an online feature.
+- Supported local processing is performed on the device.
+- Optional synced storage is separate from local capture and is user controlled.
+- Analytics is opt-in/choice controlled and excludes recordings, transcripts, notes, searches, file names, calendar details and account details.
+- NotzUP does not silently create provider connections or bypass operating-system capture controls.
+
+[Privacy Policy](https://oyyo.one/privacy) · [Terms of Service](https://oyyo.one/terms) · [Security reporting](SECURITY.md)
+
+## Support
+
+- Product help: [NotzUP FAQ](docs/FAQ.md)
+- Email: [support@oyyo.one](mailto:support@oyyo.one)
+- Bugs and feature requests without private data: [GitHub Issues](https://github.com/vpicciuolo/oyyo-notzup/issues)
+- Security concerns: follow [SECURITY.md](SECURITY.md); do not post secrets, recordings or personal data in a public issue.
+
+## Product and publisher
+
+OYYO NotzUP is developed under OYYO ONE AI by **HRN INNOVATION TECHNOLOGIES LTD**. The Windows Store publisher is **Vincenzo Picciuolo**. NotzUP is not affiliated with Google, Microsoft, Zoom, Slack, OpenAI or Anthropic. Provider names and marks identify optional compatible integrations and remain the property of their respective owners.
+
+**© 2026 HRN INNOVATION TECHNOLOGIES LTD**
+
+

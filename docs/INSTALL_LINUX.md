@@ -3,9 +3,10 @@
 # Linux installation
 
 Status: Linux x86-64 direct packages passed Ubuntu, Debian and Fedora virtual-
-machine validation, but signing, physical-device QA and publication are still
-pending. Do not install a copy hosted outside this repository, an approved
-store listing or [notzup.com](https://notzup.com/).
+machine validation. The strict Snap also passed local installation, confined
+CLI and rendered-GUI checks. Signing, physical-device QA, store review and
+publication are still pending. Do not install a copy hosted outside this
+repository, an approved store listing or [notzup.com](https://notzup.com/).
 
 The first x86-64 release is designed to provide:
 

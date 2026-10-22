@@ -69,7 +69,7 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 | macOS | Mac App Store | Signed and notarized DMG | In preparation |
 | Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release available; public Play listing pending |
 | iPhone and iPad | Apple App Store | No public sideload package | In preparation |
-| Linux x64 | — | AppImage, DEB, RPM and CLI archive | VM validation passed; signing and publication pending |
+| Linux x64 | Snap Store after review | AppImage, DEB, RPM and CLI archive | Direct packages and strict Snap passed VM validation; signing, physical QA and publication pending |
 
 The Windows Store link is the recommended trusted route. Other Store names become clickable only after the corresponding public listing exists. The Windows direct installers are provided for users who explicitly prefer a traditional setup wizard or MSI and understand that version 1.0.0 is not Authenticode-signed.
 

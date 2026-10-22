@@ -8,7 +8,7 @@ only after its own review and clean-machine installation checks pass.
 
 | Channel | User experience | Current status |
 | --- | --- | --- |
-| Snap Store | Search/install through Ubuntu App Center; automatic updates | Packaging pipeline prepared; owner account registration, store review and physical QA pending |
+| Snap Store | Search/install through Ubuntu App Center; automatic updates | Strict Snap build, local install, CLI and GUI validation passed; owner account registration, store review and physical QA pending |
 | GitHub Releases | AppImage, DEB, RPM and CLI direct downloads | Ubuntu 22.04, Debian 12 and Fedora 44 VM validation passed; signing and approved public release pending |
 | Ubuntu/Debian archive | Native package search through official repositories | Separate distribution-maintainer review required; not submitted |
 | Fedora COPR / openSUSE OBS | Repository-managed RPM updates | Possible later channel; account, source-package and distro review required |
@@ -20,9 +20,10 @@ build and physical-device tests pass.
 
 The direct package candidate has passed clean virtual-machine installation and
 runtime tests: the DEB on Ubuntu 22.04 and Debian 12, the RPM on Fedora 44, and
-the AppImage GUI on Ubuntu 22.04. This does not replace physical Linux checks
-for audio, camera, screen capture, Wayland/X11 or desktop portals, and it does
-not mean that a store listing is public.
+the AppImage GUI on Ubuntu 22.04. The strict Snap also passed local installation,
+confined CLI execution and rendered-GUI validation in the Ubuntu VM. This does
+not replace physical Linux checks for audio, camera, screen capture, Wayland/X11
+or desktop portals, and it does not mean that a store listing is public.
 
 ## Why Snap is first for Ubuntu
 

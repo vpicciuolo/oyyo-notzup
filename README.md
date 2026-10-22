@@ -72,6 +72,16 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 
 The Windows Store link is live. Other Store names become clickable only after the corresponding public listing exists. Direct format names become clickable only after the signed package and its checksum are attached to a verified GitHub Release. This avoids broken links and prevents an unsigned test build from being mistaken for a production download.
 
+### Install Windows from the command line
+
+Windows users can install the same Microsoft-signed Store package without opening the Store UI:
+
+```powershell
+winget install 9NX0604FJ0XN --source msstore --accept-package-agreements --accept-source-agreements
+```
+
+This command downloads OYYO AI NotzUP directly from Microsoft. It is the free trusted manual-install route while separately hosted MSI and EXE packages await organization-validated Authenticode signing.
+
 Every direct desktop release will include:
 
 1. A versioned, immutable GitHub Release asset.

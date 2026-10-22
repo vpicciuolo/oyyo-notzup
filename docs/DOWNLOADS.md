@@ -25,6 +25,14 @@ The free Microsoft Store route uses an MSIX package signed and hosted through Mi
 
 **[Download OYYO AI NotzUP from Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN)**
 
+Or install the same Microsoft-signed Store package from a terminal:
+
+```powershell
+winget install 9NX0604FJ0XN --source msstore --accept-package-agreements --accept-source-agreements
+```
+
+Windows Package Manager identifies this package as **OYYO AI NotzUP**, Store product ID `9NX0604FJ0XN`. Microsoft remains the download and signing channel for this command.
+
 GitHub Releases will also offer direct formats when their separate release gates pass:
 
 - **MSIX** for a packaged Windows installation.

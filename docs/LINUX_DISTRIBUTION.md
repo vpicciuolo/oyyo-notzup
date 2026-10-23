@@ -8,7 +8,7 @@ only after its own review and clean-machine installation checks pass.
 
 | Channel | User experience | Current status |
 | --- | --- | --- |
-| Snap Store | Search/install through Ubuntu App Center; automatic updates | Strict Snap build, local install, CLI and GUI validation passed; owner account registration, store review and physical QA pending |
+| [Snap Store](https://snapcraft.io/oyyo-notzup) | Search/install through Ubuntu App Center; automatic updates | Version 1.0.0 is public on `latest/edge`; strict Snap CLI and GUI validation passed; physical QA remains before stable promotion |
 | GitHub Releases | AppImage, DEB, RPM, Snap and CLI direct downloads | [Unsigned 1.0.0 x86-64 preview published](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux); Ubuntu 22.04, Debian 12 and Fedora 44 VM validation passed |
 | Ubuntu/Debian archive | Native package search through official repositories | Separate distribution-maintainer review required; not submitted |
 | Fedora COPR / openSUSE OBS | Repository-managed RPM updates | Possible later channel; account, source-package and distro review required |
@@ -22,9 +22,10 @@ The direct package candidate has passed clean virtual-machine installation and
 runtime tests: the DEB on Ubuntu 22.04 and Debian 12, the RPM on Fedora 44, and
 the AppImage GUI on Ubuntu 22.04. The strict Snap also passed local installation,
 confined CLI execution and rendered-GUI validation in the Ubuntu VM. The
-direct packages are now available as an unsigned GitHub preview. This does not
-replace physical Linux checks for audio, camera, screen capture, Wayland/X11 or
-desktop portals, and it does not mean that a store listing is public.
+direct packages are now available as an unsigned GitHub preview. The Snap Store
+listing is public on `latest/edge`, but that does not replace physical Linux
+checks for audio, camera, screen capture, Wayland/X11 or desktop portals and
+does not represent a stable-channel release.
 
 ## Why Snap is first for Ubuntu
 

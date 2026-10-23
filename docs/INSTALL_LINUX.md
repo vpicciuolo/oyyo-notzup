@@ -4,8 +4,9 @@
 
 Status: Linux x86-64 direct packages are available as a 1.0.0 preview after
 Ubuntu, Debian and Fedora virtual-machine validation. The strict Snap also
-passed local installation, confined CLI and rendered-GUI checks. The direct
-packages are unsigned; physical-device QA and Snap Store review remain. Do not
+passed local installation, confined CLI and rendered-GUI checks and is public
+in the [Snap Store](https://snapcraft.io/oyyo-notzup) on `latest/edge`. The direct
+packages are unsigned; physical-device QA remains before stable promotion. Do not
 install a copy hosted outside this
 repository, an approved store listing or [notzup.com](https://notzup.com/).
 
@@ -66,20 +67,22 @@ sudo snap install --dangerous ./OYYO-NotzUP-1.0.0-Linux-x86_64.snap
 ```
 
 `--dangerous` is required because the downloaded Snap is not signed by the
-Snap Store. Prefer the Store command below after its listing is approved.
+Snap Store. Prefer the Store command below for the Store-delivered package.
 
 ## Ubuntu App Center
 
-The planned Ubuntu catalog route is the Snap Store. After Canonical accepts and
-publishes the stable revision, Ubuntu users will be able to find it in App
-Center or install it with:
+The [public Snap Store listing](https://snapcraft.io/oyyo-notzup) is live and
+version 1.0.0 is currently published to `latest/edge`. Install the GUI and CLI
+from the Store with:
 
 ```bash
-sudo snap install oyyo-notzup
+sudo snap install oyyo-notzup --edge
 ```
 
-This command is not expected to work until the public Snap listing exists.
-Ubuntu App Center normally shows Snap Store applications by default. A direct
+The edge channel is the pre-stable testing channel and receives automatic Snap
+updates. After a release is promoted to `latest/stable`, the shorter command
+`sudo snap install oyyo-notzup` will install it without `--edge`. Ubuntu App
+Center normally shows Snap Store applications by default. A direct
 DEB can also be installed manually, but it is not automatically listed in App
 Center's repository search merely because it exists on GitHub.
 

@@ -24,6 +24,14 @@ For audio or music you are permitted to analyze, NotzUP can create a tentative l
 
 Yes, when a compatible verified local vision pack is installed. Imported images, screenshots and camera scans can produce a scene description, alt text and approved object labels locally on the device.
 
+## Can NotzUP understand a silent video?
+
+Yes. The mobile app samples video frames for local visual analysis, so visible text, scenes, objects, labels and a non-identifying face count can still be produced when the file has no audio. Speech transcription is separate and requires an audible speech track.
+
+## Does NotzUP identify people or guarantee a brand match?
+
+No. Face analysis reports a count, not an identity. Possible names or brands can be suggested from visible text, but they are unverified hints. A user can explicitly start an online search for detected objects or names and should verify the result against the original source.
+
 ## Can NotzUP summarize or translate captured material?
 
 Supported sources can produce reviewable summaries, explanations, action items, clean text, Markdown and structured JSON. Installed local language packs can translate supported outputs offline. Every generated result remains tied to its captured source for review.
@@ -47,6 +55,70 @@ NotzUP can capture eligible device audio/screen sources and can connect to suppo
 ## Which files can I import?
 
 The desktop release supports common PDF, Office, OpenDocument, RTF, HTML, Markdown, CSV/TSV, JSON/XML/YAML, caption, image, audio and video formats. Extraction quality depends on the file, embedded text, installed codecs and verified local models.
+
+## Can I play an imported video inside NotzUP?
+
+Supported videos open in the file workspace with video playback controls. Playback still depends on the device decoder and the codecs inside the file. If sound works but the picture is black, keep the original, update the app, and convert a test copy to a widely supported MP4 file using H.264 video and AAC audio.
+
+## How is a saved file organized?
+
+Each source opens in a separate workspace. Available tabs include Overview, Transcript, Visual analysis, Visible text, and Summary and actions. Users can edit, copy or share a section, export one section as Markdown, Excel, text or PDF, create a branded printable PDF, or download a complete ZIP package.
+
+## Is the barcode scanner available on desktop or web?
+
+No. Barcode and QR Inventory is exclusive to the mobile app and is currently available on Android. The web account can manage plans, storage, devices and encrypted files, but it does not turn a desktop browser into the inventory scanner.
+
+## Which plans include Barcode and QR Inventory?
+
+Only Pro and Organization. Free and Plus do not unlock scanning or inventory sessions.
+
+## How does NotzUP prevent accidental barcode scans?
+
+Single-code and manual inventory modes require the user to tap **Scan code**. Controlled automatic scanning starts only after **Start auto scan** is tapped and ends with **Stop auto scan**. No tap means no scan unless that deliberate automatic session is active.
+
+## Can repeated barcodes be counted as inventory?
+
+Yes. Every accepted scan is kept in chronological history, while identical values are grouped and counted. The inventory shows total scans, unique codes and the quantity for each code.
+
+## Can I import an existing product catalog?
+
+Yes. Import a CSV, XLS or XLSX file with a header row. Useful columns include Description, Article ID, Barcode, Quantity, Warehouse or Location, and Unit. Keep barcode cells formatted as text when leading zeroes matter.
+
+## What does the inventory comparison show?
+
+For each catalog line, NotzUP shows expected quantity, scanned quantity, difference and status. Codes absent from the catalog remain visible as unlisted items. The updated quantity column can be mapped into a reviewed warehouse import; NotzUP does not silently modify an external stock system.
+
+## Which inventory exports are available?
+
+Inventory sessions can be exported as CSV, Excel or a branded printable PDF. CSV is suitable for system import, Excel includes detailed and total views, and PDF is designed for review and sign-off. A single scanned code can also be copied or used for a user-initiated online search.
+
+## How do encrypted backups work?
+
+Supported result and inventory backups are encrypted on the device before upload. The cloud receives encrypted data, while the recovery key stays under the user's control and never reaches NotzUP. Original large media files remain local in the current result-backup workflow.
+
+## Why is two-factor authentication required for encrypted backup?
+
+The recovery key controls access to every compatible encrypted backup, so NotzUP requires account two-factor authentication before key setup. This protects sensitive key-management actions even if an account password is exposed.
+
+## What happens if I lose the recovery key?
+
+If every copy of the matching key is lost, existing encrypted backups cannot be recovered by NotzUP, support or the storage provider. Keep at least two protected copies in separate locations and compare the fingerprint when importing a key on another device.
+
+## Can a new phone restore a backup made by another device?
+
+Yes, when the new installation is authorized for the same personal or Organization space and has the matching recovery key. Choose a dated backup from the cloud file manager and restore it as a local copy. Inventory restoration asks before replacing the current local count.
+
+## Do all my devices share the same storage?
+
+Authorized installations draw from the selected workspace pool. Personal and Organization spaces have separate quotas and permissions. Files stored in an Organization space remain governed by Organization membership even when the same user also has personal storage.
+
+## How do I manage cloud storage?
+
+Open Storage in the web account, or **Encrypted backup and cloud storage** in the mobile settings. Select the correct space to review usage, list files, check dates and sizes, download or restore supported backups, and delete an exact file after confirmation. Devices and active account sessions are managed separately.
+
+## Is settings backup the same as content backup?
+
+No. Settings backup contains a restricted set of compatible preferences. Encrypted content backup contains selected results or an inventory. Settings backup never includes recordings, transcripts, credentials, plan grants or recovery keys.
 
 ## What does “local intelligence” mean?
 

@@ -16,7 +16,7 @@
 [![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux)
 [![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
 
-[Download options](docs/DOWNLOADS.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [macOS test build](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [Recording-controls demo](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-NotzUP-Android-recording-controls-demo.mp4) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -32,6 +32,7 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 
 ## Why NotzUP
 
+- **A mobile barcode inventory, not a basic code reader:** Pro and Organization users can scan only on demand, run a controlled counting session, import a CSV or Excel catalog, compare expected and counted quantities, and export CSV, Excel or a printable PDF. This capability is exclusive to the mobile app and is currently available on Android.
 - **More than a screen recorder:** audio, screen, screenshot, scan, file and text capture live together.
 - **Private local intelligence:** supported transcription, OCR, search and grounded outputs run on the device, without a hidden cloud-model fallback.
 - **A searchable source library:** find relevant transcript passages and return to their timestamped source context.
@@ -42,6 +43,22 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 - **Real provider consent:** connect supported Google, Microsoft, Zoom and Slack services only when you choose.
 - **Calendar and bookings:** review authorized calendars and booking activity in the same workspace.
 - **Fast access:** desktop controls, tray/menu-bar actions, Android Quick Settings and purpose-built widgets keep capture close.
+- **Encrypted backup with your recovery key:** supported result and inventory backups are encrypted on the device before upload. The recovery key is controlled by the user and is never sent to NotzUP.
+- **One storage pool across authorized devices:** personal and Organization spaces keep separate quotas, while authorized mobile and desktop installations can use the same selected space and restore a dated backup from another device.
+
+## Mobile-exclusive barcode and QR inventory
+
+The Android mobile app includes a purpose-built barcode and QR inventory workspace for **Pro and Organization** plans. Nothing is counted until the user taps **Scan code**, unless they deliberately start controlled automatic scanning. Repeated codes increase the quantity instead of creating an unreadable list.
+
+Inventory teams can import a CSV, XLS or XLSX catalog with description, article ID, barcode, expected quantity, location and unit. NotzUP then shows expected quantity, scanned quantity, difference, match status and unknown scanned items. Results can be exported as CSV for warehouse updates, Excel with detailed and totals sheets, or a branded printable PDF.
+
+A single scan can be copied or used to start an online product search. The scanner supports configurable profiles for retail codes, QR codes, warehouse codes and all supported formats. The full workflow is documented in the [Mobile Barcode and QR Inventory guide](docs/MOBILE_BARCODE_INVENTORY.md).
+
+## Encrypted cloud backup and storage
+
+Cloud storage is optional. When encrypted backup is enabled, NotzUP encrypts the selected result or inventory on the device before it is uploaded. Encryption setup requires account two-factor authentication. The recovery key can be downloaded, imported and managed by the user; NotzUP does not receive it and cannot recreate it. If every copy is lost, existing encrypted backups are permanently unreadable.
+
+Personal and Organization storage spaces have independent shared quotas. Every authorized installation using the selected space can see its stored backup list, subject to account and workspace permissions. A new installation can import the matching recovery key, choose a dated backup created by another authorized device, and restore it as a local copy. See [Encrypted Backup and Cloud Storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md).
 
 ## Windows features
 
@@ -138,6 +155,8 @@ Every direct desktop release will include:
 6. Stop and save, then review the original, transcript and selected outputs in **Library**.
 
 See the detailed [Getting Started guide](docs/GETTING_STARTED.md), [Windows installation guide](docs/INSTALL_DESKTOP.md), and [macOS installation guide](docs/INSTALL_MACOS.md).
+
+For a feature-by-feature walkthrough, use the [Complete User Guide](docs/USER_GUIDE.md). It covers capture, import, playback, transcription, visual analysis, file workspaces, exports, barcode inventory, encrypted backup, notifications, sharing, calendars, connectors and troubleshooting.
 
 ## Common workflows
 

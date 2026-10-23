@@ -36,8 +36,10 @@ The canonical list of current packages and their release status is
    from analytics.
 4. Approve only the microphone, screen, camera or notification permissions
    required for the feature you select.
-5. Allow any selected local model to finish downloading and integrity
-   verification.
+5. Keep the app open while the local core engine downloads automatically and
+   passes integrity verification. If Android pauses the download, reconnect to
+   the internet, disable battery restrictions for NotzUP temporarily, and use
+   **Settings → Local intelligence → Download / verify model** to resume it.
 6. Select **Capture anything**, choose a source, name the session and start.
 7. Keep the visible recording indicator available, then stop and save.
 8. Open **Library** to review the original, transcript and supported local
@@ -49,8 +51,35 @@ results in a private local library. Supported transcription, analysis, search
 and generated outputs run on the user's device without a hidden cloud-model
 fallback. Optional account services and sync are separate choices.
 
-## v4 account and local engine requirements
-Account registration is required for licensed runtimes. Free permits up to 26 captured minutes/session, 10 confirmed bookings/month, and two registered installations. Transcription, summarization and AI run on your own device, with no cloud model fallback; 50 MB content storage is optional and not automatic upload. Plus $5.99/month and Pro $9.99/month are planned for verified release, not live checkout.
+## Account, plans and the local engine
+
+Account registration is required for licensed runtimes. Plan limits and prices
+are enforced by the current account service and displayed on
+[notzup.com/pricing](https://notzup.com/pricing) and the signed-in Billing page.
+Transcription, summarization and supported AI processing run on the device,
+with no hidden cloud-model fallback. Optional cloud storage never means
+automatic upload.
+
+The mobile Barcode and QR Inventory workspace is available only on **Pro and
+Organization**, and is currently an Android-only capability. Free and Plus can
+review its plan information but cannot start an inventory scan. Read the
+[barcode inventory guide](MOBILE_BARCODE_INVENTORY.md) before the first count.
+
+Encrypted result and inventory backup requires account two-factor
+authentication plus a user-controlled recovery key. NotzUP cannot replace a
+lost key. Complete the [encrypted backup setup](ENCRYPTED_BACKUP_AND_STORAGE.md)
+and test one restore before relying on it.
+
+## Learn every workflow
+
+The [Complete User Guide](USER_GUIDE.md) contains numbered instructions for
+audio, screen and meeting capture; photos, scans and screenshots; file import;
+playback; transcription; image and silent-video understanding; editable file
+tabs; summaries; translation; export and sharing; notifications; cloud storage;
+devices; sessions; calendar; bookings; connectors and problem reports.
+
+The [Complete Feature Guide](FEATURES.md) is a concise capability and privacy
+reference.
 
 ## Need help?
 

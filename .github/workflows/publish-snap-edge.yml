@@ -1,0 +1,34 @@
+name: Publish Snap to edge
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Authenticate and publish
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+
+    steps:
+      - name: Install Snapcraft
+        run: sudo snap install snapcraft --classic
+
+      - name: Download and verify the tested Snap
+        env:
+          SNAP_URL: https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.snap
+          SNAP_SHA256: 12b249751ae613d90a4ba8f762f7ff2db50e13c633eb27d012f469ba1d800640
+        run: |
+          curl --fail --location --retry 3 --output oyyo-notzup.snap "$SNAP_URL"
+          echo "$SNAP_SHA256  oyyo-notzup.snap" | sha256sum --check --strict
+
+      - name: Authenticate with Canonical and publish to edge
+        env:
+          SNAPCRAFT_STORE_AUTH: candid
+        run: |
+          echo "Open the Canonical authorization URL printed below and finish signing in."
+          script --quiet --return --command "snapcraft login" /dev/null
+          snapcraft whoami
+          snapcraft upload --release=edge oyyo-notzup.snap

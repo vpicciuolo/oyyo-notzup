@@ -10,11 +10,12 @@
 
 [![Get it from Microsoft](https://img.shields.io/badge/Microsoft%20Store-Get%20OYYO%20AI%20NotzUP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9NX0604FJ0XN)
 [![Windows direct installer](https://img.shields.io/badge/Windows-Direct%20installer%20(unsigned)-2563EB?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows)
+[![macOS test DMG](https://img.shields.io/badge/macOS-Universal%20test%20DMG-111827?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos)
 [![Android direct download](https://img.shields.io/badge/Android-Signed%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android)
 [![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux)
 [![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
 
-[Download options](docs/DOWNLOADS.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [Recording-controls demo](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-NotzUP-Android-recording-controls-demo.mp4) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [macOS test build](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [Recording-controls demo](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-NotzUP-Android-recording-controls-demo.mp4) · [NotzUP website](https://notzup.com/) · [OYYO ONE AI](https://oyyo.one/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -26,7 +27,7 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 
 **Local OYYO AI Core — running privately on your device.**
 
-> Official direct downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). The Microsoft Store package is signed by Microsoft. Windows 1.0.0 direct EXE/MSI files are intentionally published **unsigned** as a separate manual-install option and can trigger Microsoft Defender SmartScreen. Never trust an installer copied to an unofficial host.
+> Official direct downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). The Microsoft Store package is signed by Microsoft. Windows 1.0.0 direct EXE/MSI files are unsigned and can trigger Microsoft Defender SmartScreen. The macOS `0.1.0-alpha.1` test DMG is ad-hoc signed, not notarized by Apple, and can be blocked by Gatekeeper until the user explicitly approves it. Never trust an installer copied to an unofficial host.
 
 ## Why NotzUP
 
@@ -67,7 +68,7 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 | Platform | Store channel | Direct GitHub download | Current availability |
 | --- | --- | --- | --- |
 | Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | [Setup EXE](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64-Setup.exe) · [MSI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64.msi) | **Store available**; direct installers are unsigned and require manual approval on some PCs |
-| macOS | Mac App Store | Signed and notarized DMG | In preparation |
+| macOS 10.15+; Intel or Apple silicon | Mac App Store after review | [Universal test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg) | **Test pre-release available**; ad-hoc signed and not notarized; manual Gatekeeper approval required |
 | Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release available; public Play listing pending |
 | iPhone and iPad | Apple App Store | No public sideload package | In preparation |
 | Linux x64 | Snap Store after review | [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.rpm) · [CLI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-CLI-1.0.0-Linux-x86_64.tar.gz) | **1.0.0 preview available**; unsigned direct packages passed VM validation; physical Linux permission QA remains |
@@ -83,6 +84,24 @@ winget install 9NX0604FJ0XN --source msstore --accept-package-agreements --accep
 ```
 
 This command downloads OYYO AI NotzUP directly from Microsoft and avoids the warning shown by the unsigned direct installers.
+
+### Install the macOS test build
+
+Download the [universal macOS test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg) and its [SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/SHA256SUMS-macos.txt). This is an early functional-test build for Intel and Apple silicon Macs running macOS 10.15 or later. It is ad-hoc signed and has not been notarized by Apple.
+
+Verify, install and open it only if the checksum matches:
+
+```bash
+shasum -a 256 OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg
+```
+
+Expected SHA-256:
+
+```text
+1cfb137867c6c452df3f8461e3c6d5ce90c1dc6bd4d852095021d564b905d8eb
+```
+
+Double-click the DMG, drag **OYYO NotzUP** to **Applications**, eject the disk image, then open the app from Applications. If Gatekeeper blocks this non-notarized test build, first verify the checksum and release URL, try to open the app once, then use **System Settings → Privacy & Security → Open Anyway**. Do not override a malware, damaged-app or checksum warning. See the complete [macOS installation and first-run guide](docs/INSTALL_MACOS.md).
 
 ### Install Windows with the traditional setup wizard
 
@@ -100,14 +119,14 @@ Every direct desktop release will include:
 
 ## Quick start
 
-1. Install Windows from the [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN), or choose another live package on the [Download options](docs/DOWNLOADS.md) page.
-2. For a direct Android APK, compare its SHA-256 checksum and signing-certificate digest with the tagged release. For a direct Windows installer, compare the SHA-256 checksum and review the unsigned-install warning before manually approving SmartScreen.
+1. Install Windows from the [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN), install the [macOS test build](docs/INSTALL_MACOS.md), or choose another live package on the [Download options](docs/DOWNLOADS.md) page.
+2. Verify every direct download against the checksum in its tagged release. Review the disclosed unsigned or non-notarized status before manually overriding SmartScreen or Gatekeeper.
 3. Open NotzUP and approve only the microphone, screen, camera or notification permissions needed for the capture you choose.
 4. Allow the verified local speech model to download and pass integrity verification on first use.
 5. Select **Capture anything**, choose a source, name the session and start.
 6. Stop and save, then review the original, transcript and selected outputs in **Library**.
 
-See the detailed [Getting Started guide](docs/GETTING_STARTED.md) and [desktop installation guide](docs/INSTALL_DESKTOP.md).
+See the detailed [Getting Started guide](docs/GETTING_STARTED.md), [Windows installation guide](docs/INSTALL_DESKTOP.md), and [macOS installation guide](docs/INSTALL_MACOS.md).
 
 ## Common workflows
 

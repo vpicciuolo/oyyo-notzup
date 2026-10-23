@@ -70,11 +70,19 @@ Account and booking events appear in NotzUP’s notification center. On supporte
 
 ## Where should I download NotzUP?
 
-Use only the relevant platform store or the official [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). A direct Windows installer is considered official only when it is Authenticode-signed, its signature identifies **Vincenzo Picciuolo**, and its checksum matches the release notes.
+Use only the relevant platform store or the official [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). Direct builds are official only when the tagged release explicitly lists the same file name, version, architecture, signature status and SHA-256 checksum. Never assume a direct package is signed: the current Windows and Linux direct packages are unsigned, and the macOS test DMG is ad-hoc signed but not notarized.
 
 ## Why does Windows show a warning?
 
-Do not continue if a production installer is unsigned, the signature is invalid, or the publisher does not match the release notes. New certificates can still build SmartScreen reputation over time, but the Authenticode signature must always validate.
+The current version 1.0.0 direct MSI and Setup EXE are intentionally unsigned, so Microsoft Defender SmartScreen can identify the publisher as unknown. Confirm the file came from the tagged release and verify its SHA-256 checksum before choosing **More info → Run anyway**. Use the Microsoft Store package when you want the Microsoft-signed route. If a release is described as signed but its signature is missing or invalid, do not continue.
+
+## Why does macOS block the test DMG?
+
+The public macOS `0.1.0-alpha.1` DMG is a functional-test build. It is ad-hoc signed rather than Developer ID signed and has not been notarized by Apple, so Gatekeeper is expected to block its first launch. Verify the official release URL and exact SHA-256 checksum before making any exception. Then follow the [macOS installation guide](INSTALL_MACOS.md), which explains **System Settings → Privacy & Security → Open Anyway**. Never override a warning that says the application is damaged or contains malware.
+
+## How do I give NotzUP microphone or screen permission on macOS?
+
+Open **System Settings → Privacy & Security**. Use **Microphone** for audio-input access and **Screen & System Audio Recording** for permitted screen or system-audio capture. Enable OYYO NotzUP only for the features you intend to use, then quit and reopen the application if macOS requests it. The [macOS installation guide](INSTALL_MACOS.md) contains the full first-run flow.
 
 ## How do I get help?
 

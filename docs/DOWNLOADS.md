@@ -8,12 +8,12 @@ This page lists every official OYYO NotzUP installation channel. Store packages 
 
 ## Current availability
 
-OYYO NotzUP is available for Windows from the official [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN). A traditional Windows Setup EXE and MSI are also available on the [Windows 1.0.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows); those two direct installers are intentionally unsigned and can trigger SmartScreen. A signed Android 1.0.0 pre-release is available on the public [Android GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android); Google Play certification is still in progress. Linux x86-64 GUI and CLI preview packages are available on the [Linux 1.0.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux). macOS and iOS production packages are not public yet. Do not install a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
+OYYO NotzUP is available for Windows from the official [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN). A traditional Windows Setup EXE and MSI are also available on the [Windows 1.0.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows); those two direct installers are intentionally unsigned and can trigger SmartScreen. A universal macOS `0.1.0-alpha.1` functional-test DMG is available on the [macOS test release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos); it is ad-hoc signed, not notarized by Apple and requires an informed Gatekeeper override. A signed Android 1.0.0 pre-release is available on the public [Android GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android); Google Play certification is still in progress. Linux x86-64 GUI and CLI preview packages are available on the [Linux 1.0.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux). macOS and iOS production Store packages are not public yet. Do not install a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
 
 | Platform | Store installation | Direct installation | Status |
 | --- | --- | --- | --- |
 | Windows 10/11 x64 | [Get OYYO AI NotzUP from Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | [Setup EXE](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64-Setup.exe) · [MSI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64.msi) | **Available**; direct installers are unsigned and may require manual SmartScreen approval |
-| macOS | Mac App Store link appears here after review | `OYYO-NotzUP-macOS-universal.dmg` | Requires Apple Developer ID signing and notarization |
+| macOS 10.15+; Intel or Apple silicon | Mac App Store link appears here after review | [Universal `0.1.0-alpha.1` test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg) | **Test pre-release available**; ad-hoc signed, not notarized, manual Gatekeeper approval required |
 | Android | Google Play link appears here after review | [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) · [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 pre-release; Play closed testing/review in progress |
 | iPhone and iPad | Apple App Store link appears here after review | Not offered as a public sideload package | In preparation |
 | Linux x64 | Snap Store link appears here after review | [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.rpm) · [Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.snap) | **Unsigned 1.0.0 preview available**; VM validation passed; physical permission QA and store review remain |
@@ -52,7 +52,24 @@ The Store or WinGet route remains recommended when you want a Microsoft-signed i
 
 ## macOS
 
-The Mac App Store listing will be linked here after review. A direct universal DMG will be published only after it is signed with the approved Apple Developer ID, notarized by Apple and verified on supported Intel and Apple silicon devices.
+The [macOS `0.1.0-alpha.1` test release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos) contains a universal DMG for Intel and Apple silicon Macs running macOS 10.15 or later. The build completed universal compilation, ad-hoc code-signature verification, DMG verification and a launch smoke test on a GitHub-hosted Mac. It has **not** been signed with an Apple Developer ID and has **not** been notarized by Apple. It is provided only for informed functional testing.
+
+Download both files:
+
+- [OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg)
+- [SHA256SUMS-macos.txt](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/SHA256SUMS-macos.txt)
+
+Before opening the DMG, verify it:
+
+```bash
+shasum -a 256 OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg
+```
+
+The result must be `1cfb137867c6c452df3f8461e3c6d5ce90c1dc6bd4d852095021d564b905d8eb`. If it differs, delete the download and contact support.
+
+Double-click the verified DMG, drag **OYYO NotzUP** to **Applications**, eject the image, and launch the installed application. Because this test build is not notarized, macOS may block the first launch. Only after checking the release URL and SHA-256 value, try opening it once and then use **System Settings → Privacy & Security → Open Anyway**. Never override a warning that says the application is damaged or contains malware.
+
+See [Install and run OYYO NotzUP on macOS](INSTALL_MACOS.md) for permission setup, first capture, troubleshooting, updating and uninstalling. The production direct-download build will replace this test route after Apple Developer ID signing, notarization and physical-device QA. The Mac App Store listing will be linked here only after Apple review.
 
 ## Android
 
@@ -82,7 +99,7 @@ See the
 
 1. Open the matching entry on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases).
 2. Confirm the asset name, version, operating system and architecture.
-3. Review the disclosed signature status. Windows and Linux 1.0.0 direct packages are unsigned; the Android APKs are signed.
+3. Review the disclosed signature status. Windows and Linux 1.0.0 direct packages are unsigned; the macOS test DMG is ad-hoc signed and not notarized; the Android APKs are signed.
 4. Compare the file's SHA-256 hash with the checksum manifest in the same release.
 5. Delete the file and contact [support@oyyo.one](mailto:support@oyyo.one) if any check fails.
 
@@ -97,8 +114,8 @@ Get-AuthenticodeSignature -FilePath '.\OYYO-NotzUP-1.0.0-Windows-x64-Setup.exe' 
 macOS:
 
 ```bash
-shasum -a 256 OYYO-NotzUP-macOS-universal.dmg
-spctl --assess --type open --context context:primary-signature -vv OYYO-NotzUP-macOS-universal.dmg
+shasum -a 256 OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg
+spctl --assess --type open --context context:primary-signature -vv OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg
 ```
 
 Linux or Android package checksum:
@@ -115,7 +132,7 @@ sha256sum OYYO-AI-NotzUP-Android-1.0.0-universal.apk
 
 - Store links are published only after the listing is public.
 - Direct binaries include checksums, release notes and an explicit signature-status disclosure.
-- Unsigned builds are clearly separated from the Microsoft-signed Store channel and require an informed manual choice.
+- Unsigned and non-notarized test builds are clearly separated from signed Store or production channels and require an informed manual choice.
 - Every release identifies the supported operating-system versions and architectures.
 - Older versions remain on their tagged release page unless removed for a security or legal reason.
 

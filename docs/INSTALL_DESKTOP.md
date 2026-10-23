@@ -2,6 +2,8 @@
 
 # Install OYYO NotzUP on Windows
 
+For a Mac, use the separate [macOS installation and first-run guide](INSTALL_MACOS.md).
+
 OYYO NotzUP is the private capture and knowledge app inside [OYYO ONE AI](https://oyyo.one/). Its **Local OYYO AI Core runs privately on your device** for supported transcription, music and audio analysis, visual descriptions, translation, search, summaries and grounded outputs.
 
 ## Requirements
@@ -16,17 +18,17 @@ OYYO NotzUP is the private capture and knowledge app inside [OYYO ONE AI](https:
 
 Download NotzUP only from:
 
-1. The Microsoft Store listing published by **Vincenzo Picciuolo**, or
+1. The [Microsoft Store listing](https://apps.microsoft.com/detail/9NX0604FJ0XN), or
 2. The official, versioned [OYYO NotzUP GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases).
 
-The GitHub installer URL is immutable for each release tag. A production release includes an Authenticode signature, SHA-256 checksums and release notes. Do not install a file that was copied to another host or whose signature/checksum does not match.
+The GitHub installer URL is immutable for each release tag. The version 1.0.0 direct Setup EXE and MSI are intentionally unsigned and can trigger SmartScreen; the Microsoft Store package is the signed recommended route. Direct releases include SHA-256 checksums, release notes and an explicit signature-status disclosure. Do not install a file copied to another host or whose checksum does not match.
 
-## Verify the Windows signature
+## Verify the Windows download
 
-1. Right-click the downloaded MSI or EXE and select **Properties**.
-2. Open **Digital Signatures**.
-3. Confirm the signature is valid and the signer/publisher matches **Vincenzo Picciuolo**.
-4. If the tab is missing or Windows reports an invalid signature, delete the file and contact support.
+1. Confirm that the address is `github.com/vpicciuolo/oyyo-notzup` and that the file name exactly matches the tagged release.
+2. Compare its SHA-256 value with `SHA256SUMS-windows.txt` in that release.
+3. Right-click the MSI or EXE, choose **Properties**, and inspect **Digital Signatures** if present.
+4. For version 1.0.0, a missing Digital Signatures tab is expected because the direct files are disclosed as unsigned. If a later release is described as signed, require a valid matching signature.
 
 Advanced PowerShell verification:
 
@@ -39,7 +41,7 @@ Compare the SHA-256 result with the checksum published in the matching GitHub Re
 
 ## Install
 
-1. Open the signed MSI or EXE.
+1. Open the verified MSI or EXE.
 2. Review the publisher and destination.
 3. Complete the installation and launch **OYYO NotzUP**.
 4. Choose whether to allow privacy-safe analytics. You can change this later in Settings.

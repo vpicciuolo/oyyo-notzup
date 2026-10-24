@@ -18,7 +18,7 @@ OYYO NotzUP includes a complete mobile inventory workspace, not only a barcode-r
 2. Select **Single**.
 3. Choose a scan profile: all supported codes, retail products, QR codes or warehouse codes.
 4. Place the code inside the frame.
-5. Tap **Scan code**. NotzUP does not scan merely because a code enters the camera view.
+5. Tap **Scan code** on the camera. NotzUP does not scan merely because a code enters the frame.
 6. Review the decoded value and format.
 7. Use **Copy** to copy the exact value, or **Search online** to open a web search for that code.
 
@@ -29,12 +29,14 @@ An online search is an explicit browser action. The scanned value is sent to the
 1. Select **Inventory**.
 2. Tap the inventory title to give the session a useful name, such as `Warehouse A, aisle 4`.
 3. Choose the most specific scan profile for the labels being counted.
-4. Place one code inside the frame and tap **Scan code**.
+4. Place one code inside the frame and tap **Scan one**.
 5. Repeat for every physical item.
 6. Watch the total scan count, unique-code count and quantity for the latest code.
 7. If the same code is scanned again, NotzUP increases its quantity and keeps the chronological scan event.
 
 Manual mode is the safest choice when several labels may be visible at once. No tap means no scan.
+
+On a phone, **Scan one** and **Start auto** remain directly above the result panel so the inventory menu does not cover the camera controls. On tablets and unfolded foldables, the camera stays in the left pane and the inventory details stay in the right pane.
 
 ## Use controlled automatic scanning
 

@@ -122,7 +122,19 @@ Generated results are drafts. NotzUP keeps them tied to the source so the user c
 
 Expected result: translated text generated on the device without uploading the captured source to a cloud AI model.
 
-## 12. Export and share
+This release provides standard offline translation through supported language packs. Context-aware tone, humour and regional or dialect profiles described on the [OYYO Language roadmap](https://oyyo.one/language) are planned work, not current app options.
+
+## 12. Listen aloud and use accessibility settings
+
+1. Open a populated transcript, visual, visible-text or summary section.
+2. Choose **Listen aloud**.
+3. If Android has no offline voice for the detected language, install one from the Android speech settings when prompted.
+4. Choose **Stop reading** whenever you want playback to end.
+5. Use Android display and font-size settings for larger text, and use the installed screen reader for labelled primary controls.
+
+NotzUP never selects a network-required voice for this feature. Android touch layouts adapt to phones, tablets and foldables. Google TV is not supported.
+
+## 13. Export and share
 
 - **Markdown:** best for notes, repositories and knowledge tools.
 - **Excel:** best for structured tables and inventory results.
@@ -132,15 +144,15 @@ Expected result: translated text generated on the device without uploading the c
 
 Share only the minimum section needed. Review the Android share destination before sending, because another app's privacy rules apply after export.
 
-## 13. Scan a barcode inventory
+## 14. Scan a barcode inventory
 
 Use the dedicated [Mobile Barcode and QR Inventory guide](MOBILE_BARCODE_INVENTORY.md). The feature is mobile-only, currently Android, and requires Pro or Organization.
 
-## 14. Back up and restore encrypted results
+## 15. Back up and restore encrypted results
 
 Use the [Encrypted Backup and Cloud Storage guide](ENCRYPTED_BACKUP_AND_STORAGE.md). Configure two-factor authentication, protect the recovery key, select the correct storage space, and test a restore before relying on the backup.
 
-## 15. Manage notifications
+## 16. Manage notifications
 
 1. Open the bell icon.
 2. Open an item to reach its safe destination.
@@ -150,7 +162,7 @@ Use the [Encrypted Backup and Cloud Storage guide](ENCRYPTED_BACKUP_AND_STORAGE.
 
 In-app and native push delivery depend on account configuration, device permission and the event's enabled delivery channels.
 
-## 16. Manage storage, devices and sessions
+## 17. Manage storage, devices and sessions
 
 1. Open the web account or mobile Settings.
 2. Review personal and Organization storage separately.
@@ -159,7 +171,7 @@ In-app and native push delivery depend on account configuration, device permissi
 5. Review active account sessions separately from enrolled device slots.
 6. Download required backups before deleting cloud files.
 
-## 17. Use calendar and bookings
+## 18. Use calendar and bookings
 
 1. Open **Calendar** or **Bookings**.
 2. Create or review an event type and your personal public booking page.
@@ -173,7 +185,7 @@ Booking limits and provider synchronization depend on the plan and connector sta
 
 See [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md) for the complete setup, privacy and troubleshooting guide.
 
-## 18. Connect a provider
+## 19. Connect a provider
 
 1. Open **Connectors**.
 2. Choose the provider.
@@ -184,7 +196,7 @@ See [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md) for the 
 
 Signing in with Google or Microsoft does not automatically grant calendar or file access.
 
-## 19. Report a problem
+## 20. Report a problem
 
 1. Open support from the help icon, or use the app's shake-to-report control when enabled.
 2. Review the diagnostic information before sharing it.

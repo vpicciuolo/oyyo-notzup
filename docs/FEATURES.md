@@ -37,7 +37,19 @@ The user can select and copy part of a section, edit the whole section, share on
 - Report face counts without identifying people.
 - Surface possible names or brands from visible text as unverified hints.
 - Start a user-requested online search using detected objects or names.
-- Translate supported extracted text with installed offline language packs.
+- Choose a destination language and translate supported extracted text with an installed on-device language pack.
+
+The current release provides standard offline translation. Context-sensitive tone, humour, cultural-register and dialect profiles remain part of the [OYYO Language roadmap](https://oyyo.one/language) and are not shipped features.
+
+## Accessibility and Android device support
+
+- Read a populated result section aloud with an installed offline Android voice.
+- Stop speech immediately from the same file workspace.
+- Use screen readers with spoken labels on primary controls and capture states.
+- Keep Android display and font-size preferences throughout the interface.
+- Use responsive touch layouts on phones, tablets and foldables.
+
+Google TV is not supported. NotzUP requests touch capability so the mobile interface is not offered as a TV app.
 
 Visual labels and possible brand hints are observations, not proof. The user should verify them against the original image or video.
 
@@ -45,8 +57,10 @@ Visual labels and possible brand hints are observations, not proof. The user sho
 
 This is a **mobile-exclusive** feature, currently available on Android for **Pro and Organization** plans.
 
-- Single-code mode with an explicit tap-to-scan button.
+- Single-code mode with an explicit **Scan code** button on the camera.
 - Inventory mode with manual scanning or a deliberate Start/Stop automatic scan session.
+- Camera controls that remain visible above the result panel on phones.
+- A two-column camera-and-results layout on tablets and foldables.
 - Torch control and profiles for retail, QR, warehouse or all supported codes.
 - Duplicate counting and a chronological scan history.
 - Online lookup for one scanned code.

@@ -39,7 +39,9 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 - **Useful outputs you control:** review summaries, explanations, actions, Markdown and JSON before exporting or sharing.
 - **Audio and music understanding:** create review drafts of lyrics or spoken words and inspect duration, sample rate, channels, estimated tempo, tonal estimate and dynamic range.
 - **Grounded visual understanding:** use a compatible verified local vision pack for scene descriptions, alt text and approved object labels.
-- **Offline translation:** translate supported outputs with installed local language packs.
+- **Standard offline translation:** choose a destination language and translate supported outputs with an installed on-device language pack. The current release does not claim the future [OYYO Language](https://oyyo.one/language) tone, humour or dialect profiles.
+- **Accessible review:** listen to a result with an installed offline Android voice, use screen readers and keep Android display and font scaling.
+- **Adaptive Android layout:** use NotzUP on touch phones, tablets and foldables. Google TV is not supported.
 - **Real provider consent:** connect supported Google, Microsoft, Zoom and Slack services only when you choose.
 - **A personal public booking page:** every user can share a personal meeting link, define availability, duration, buffers and minimum notice, and let guests choose a time in their own time zone.
 - **Fast access:** desktop controls, tray/menu-bar actions, Android Quick Settings and purpose-built widgets keep capture close.
@@ -48,7 +50,7 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 
 ## Mobile-exclusive barcode and QR inventory
 
-The Android mobile app includes a purpose-built barcode and QR inventory workspace for **Pro and Organization** plans. Nothing is counted until the user taps **Scan code**, unless they deliberately start controlled automatic scanning. Repeated codes increase the quantity instead of creating an unreadable list.
+The Android mobile app includes a purpose-built barcode and QR inventory workspace for **Pro and Organization** plans. Nothing is counted until the user taps **Scan one**, unless they deliberately start controlled automatic scanning. The manual and automatic controls stay beside the camera on phones; tablets and foldables use a two-column camera-and-results layout. Repeated codes increase the quantity instead of creating an unreadable list.
 
 Inventory teams can import a CSV, XLS or XLSX catalog with description, article ID, barcode, expected quantity, location and unit. NotzUP then shows expected quantity, scanned quantity, difference, match status and unknown scanned items. Results can be exported as CSV for warehouse updates, Excel with detailed and totals sheets, or a branded printable PDF.
 
@@ -181,6 +183,12 @@ Import audio or music you are permitted to analyze. NotzUP can create a tentativ
 ### Describe visuals and translate offline
 
 Open an imported image, screenshot or camera scan with a compatible verified local vision pack to produce a scene description, alt text and approved object labels. Installed language packs can translate supported outputs without sending the captured source to a cloud inference service.
+
+The current release uses standard offline translation. Context-sensitive style, humour and regional or dialect profiles shown on the [OYYO Language roadmap](https://oyyo.one/language) are not yet shipped and are not represented as available.
+
+### Read a result aloud and use accessibility tools
+
+Open a populated result section and choose **Listen aloud**. NotzUP selects only an installed offline Android voice and asks you to install one when the detected language has none. **Stop reading** ends playback. The Android app follows the device's display and font-size settings and exposes spoken labels for primary controls. The touch interface adapts to phones, tablets and foldables; Google TV is intentionally excluded.
 
 ### Summarize any supported source
 

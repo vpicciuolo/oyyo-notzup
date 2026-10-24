@@ -118,11 +118,14 @@ Generated results are drafts. NotzUP keeps them tied to the source so the user c
 2. Open a text-bearing result.
 3. Choose **Translate offline**.
 4. Select the target language.
-5. Review names, numbers and domain terminology.
+5. Select **Faithful** for a direct result or **Natural context** to preserve paragraph, list and punctuation context.
+6. For English or Italian, optionally choose the light **Playful** profile. For Italian, **Napoletano · beta** and **Barese · beta** provide experimental regional styling.
+7. Review names, numbers, domain terminology and every playful or dialect phrase.
+8. Choose **Edit & approve** only when you want that exact correction reused for the same source, language and style on this device.
 
 Expected result: translated text generated on the device without uploading the captured source to a cloud AI model.
 
-This release provides standard offline translation through supported language packs. Context-aware tone, humour and regional or dialect profiles described on the [OYYO Language roadmap](https://oyyo.one/language) are planned work, not current app options.
+Approved corrections remain in private on-device translation memory. The beta dialect profiles are conservative styling aids and do not replace review by a native speaker. See [Offline Translation, Read-Aloud and Accessibility](OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) for supported profiles, privacy and troubleshooting.
 
 ## 12. Listen aloud and use accessibility settings
 

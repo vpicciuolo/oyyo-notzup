@@ -38,8 +38,11 @@ The user can select and copy part of a section, edit the whole section, share on
 - Surface possible names or brands from visible text as unverified hints.
 - Start a user-requested online search using detected objects or names.
 - Choose a destination language and translate supported extracted text with an installed on-device language pack.
+- Select faithful or paragraph-aware natural-context output while keeping the captured source on the device.
+- Use a light playful style for supported English and Italian output, or clearly labelled beta Napoletano and Barese profiles for Italian.
+- Edit and approve an exact translation correction for private reuse on that device.
 
-The current release provides standard offline translation. Context-sensitive tone, humour, cultural-register and dialect profiles remain part of the [OYYO Language roadmap](https://oyyo.one/language) and are not shipped features.
+The beta dialect profiles apply conservative local wording changes after the Italian translation and must be reviewed. They do not claim the broader intent, cultural adaptation or full dialect coverage described by [OYYO Language](https://oyyo.one/language). Read the [offline translation and accessibility guide](OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md).
 
 ## Accessibility and Android device support
 
@@ -124,6 +127,7 @@ Recordings, imported media and local analysis remain on the device unless the us
 ## Continue
 
 - [Complete User Guide](USER_GUIDE.md)
+- [Offline Translation, Read-Aloud and Accessibility](OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md)
 - [Mobile Barcode and QR Inventory](MOBILE_BARCODE_INVENTORY.md)
 - [Encrypted Backup and Cloud Storage](ENCRYPTED_BACKUP_AND_STORAGE.md)
 - [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md)

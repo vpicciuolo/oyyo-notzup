@@ -16,7 +16,7 @@
 [![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux)
 [![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
 
-[Download options](docs/DOWNLOADS.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Offline translation and accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -39,7 +39,7 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 - **Useful outputs you control:** review summaries, explanations, actions, Markdown and JSON before exporting or sharing.
 - **Audio and music understanding:** create review drafts of lyrics or spoken words and inspect duration, sample rate, channels, estimated tempo, tonal estimate and dynamic range.
 - **Grounded visual understanding:** use a compatible verified local vision pack for scene descriptions, alt text and approved object labels.
-- **Standard offline translation:** choose a destination language and translate supported outputs with an installed on-device language pack. The current release does not claim the future [OYYO Language](https://oyyo.one/language) tone, humour or dialect profiles.
+- **Context-aware offline translation:** choose a destination language, keep paragraphs and lists together, and select faithful or natural-context output. English and Italian also include a light playful style; Italian adds clearly labelled beta Napoletano and Barese profiles. A correction you review and approve can be reused privately on that device.
 - **Accessible review:** listen to a result with an installed offline Android voice, use screen readers and keep Android display and font scaling.
 - **Adaptive Android layout:** use NotzUP on touch phones, tablets and foldables. Google TV is not supported.
 - **Real provider consent:** connect supported Google, Microsoft, Zoom and Slack services only when you choose.
@@ -78,7 +78,7 @@ External calendars affect availability only after the user authorizes the provid
 - Review drafts of lyrics or spoken words from audio you are authorized to analyze
 - Local music and sound facts including tempo, tonal estimate and dynamic range
 - Grounded scene descriptions, alt text and approved object labels with a compatible local vision pack
-- Offline translation with installed language packs
+- Offline translation with installed language packs, paragraph-aware natural context and reviewed local correction memory
 - Local transcript search with source context and citations
 - Reviewable summaries, explanations, action items, Markdown and JSON
 - Local SQLite metadata and OS application-data storage
@@ -184,7 +184,7 @@ Import audio or music you are permitted to analyze. NotzUP can create a tentativ
 
 Open an imported image, screenshot or camera scan with a compatible verified local vision pack to produce a scene description, alt text and approved object labels. Installed language packs can translate supported outputs without sending the captured source to a cloud inference service.
 
-The current release uses standard offline translation. Context-sensitive style, humour and regional or dialect profiles shown on the [OYYO Language roadmap](https://oyyo.one/language) are not yet shipped and are not represented as available.
+Choose **Faithful** for a direct translation or **Natural context** to keep passages, headings, lists and punctuation together. English and Italian add a light playful profile. Italian also offers experimental Napoletano and Barese style profiles, clearly labelled beta and intended for review rather than as a substitute for a native speaker. Edit and approve a correction when you want NotzUP to reuse that exact source, language and style result from private on-device memory. See [Offline Translation, Read-Aloud and Accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md).
 
 ### Read a result aloud and use accessibility tools
 

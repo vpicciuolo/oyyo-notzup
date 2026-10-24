@@ -92,11 +92,16 @@ NotzUP never receives the content-encryption recovery key. If every key copy is 
 
 ## Calendar, bookings and connectors
 
-- Create booking pages and manage confirmed appointments within plan limits.
-- Keep booking times timezone aware.
+- Give every user a personal public booking page and shareable meeting link.
+- Let guests choose an available time in their own time zone without creating an account.
+- Configure availability, duration, buffers and minimum notice.
+- Prevent a confirmed time from being booked twice and manage confirmation, rescheduling or cancellation.
+- Include an `.ics` file and a private booking-management link where supported.
 - Connect supported providers only through their consent screen.
 - Review provider scopes and disconnect an account when no longer needed.
 - Treat exported AI output as a draft until the user approves it.
+
+Read [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md).
 
 ## What stays local
 
@@ -107,5 +112,7 @@ Recordings, imported media and local analysis remain on the device unless the us
 - [Complete User Guide](USER_GUIDE.md)
 - [Mobile Barcode and QR Inventory](MOBILE_BARCODE_INVENTORY.md)
 - [Encrypted Backup and Cloud Storage](ENCRYPTED_BACKUP_AND_STORAGE.md)
+- [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md)
+- [Local-First Privacy and Data Control](LOCAL_FIRST_PRIVACY.md)
 - [FAQ](FAQ.md)
 - [Downloads](DOWNLOADS.md)

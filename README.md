@@ -16,7 +16,7 @@
 [![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux)
 [![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
 
-[Download options](docs/DOWNLOADS.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -41,7 +41,7 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 - **Grounded visual understanding:** use a compatible verified local vision pack for scene descriptions, alt text and approved object labels.
 - **Offline translation:** translate supported outputs with installed local language packs.
 - **Real provider consent:** connect supported Google, Microsoft, Zoom and Slack services only when you choose.
-- **Calendar and bookings:** review authorized calendars and booking activity in the same workspace.
+- **A personal public booking page:** every user can share a personal meeting link, define availability, duration, buffers and minimum notice, and let guests choose a time in their own time zone.
 - **Fast access:** desktop controls, tray/menu-bar actions, Android Quick Settings and purpose-built widgets keep capture close.
 - **Encrypted backup with your recovery key:** supported result and inventory backups are encrypted on the device before upload. The recovery key is controlled by the user and is never sent to NotzUP.
 - **One storage pool across authorized devices:** personal and Organization spaces keep separate quotas, while authorized mobile and desktop installations can use the same selected space and restore a dated backup from another device.
@@ -59,6 +59,12 @@ A single scan can be copied or used to start an online product search. The scann
 Cloud storage is optional. When encrypted backup is enabled, NotzUP encrypts the selected result or inventory on the device before it is uploaded. Encryption setup requires account two-factor authentication. The recovery key can be downloaded, imported and managed by the user; NotzUP does not receive it and cannot recreate it. If every copy is lost, existing encrypted backups are permanently unreadable.
 
 Personal and Organization storage spaces have independent shared quotas. Every authorized installation using the selected space can see its stored backup list, subject to account and workspace permissions. A new installation can import the matching recovery key, choose a dated backup created by another authorized device, and restore it as a local copy. See [Encrypted Backup and Cloud Storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md).
+
+## Personal meeting and appointment pages
+
+Every user can create a personal public page and shareable link for meetings and appointments. Guests see available times in their own time zone and do not need a NotzUp account to choose a slot. Users control availability, duration, buffers and minimum notice, and can confirm, reschedule or cancel a booking. Confirmations can include an `.ics` file and a private management link where supported.
+
+External calendars affect availability only after the user authorizes the provider and the connector is configured. A booking never grants permission to record the meeting. See [Personal Booking Pages and Meeting Links](docs/PUBLIC_BOOKING_PAGES.md).
 
 ## Windows features
 
@@ -195,6 +201,8 @@ Open **Connectors**, select a provider and review the requested permissions. The
 - Optional synced storage is separate from local capture and is user controlled.
 - Analytics is opt-in/choice controlled and excludes recordings, transcripts, notes, searches, file names, calendar details and account details.
 - NotzUP does not silently create provider connections or bypass operating-system capture controls.
+
+The detailed [Local-First Privacy and Data Control guide](docs/LOCAL_FIRST_PRIVACY.md) explains exactly which actions can send selected data outside the device.
 
 [Privacy Policy](https://oyyo.one/privacy) · [Terms of Service](https://oyyo.one/terms) · [Security reporting](SECURITY.md)
 

@@ -161,13 +161,17 @@ In-app and native push delivery depend on account configuration, device permissi
 
 ## 17. Use calendar and bookings
 
-1. Open **Calendar**.
-2. Create or review an event type and availability.
-3. Check timezone, duration, buffers and questions.
-4. Share the booking page.
-5. Review confirmed bookings and changes.
+1. Open **Calendar** or **Bookings**.
+2. Create or review an event type and your personal public booking page.
+3. Check time zone, availability, duration, buffers, minimum notice and guest questions.
+4. Preview and share your personal booking link.
+5. Let the guest choose an available time in their own time zone.
+6. Review confirmation, rescheduling or cancellation from the authenticated booking area.
+7. Use the `.ics` file or configured calendar connector where supported.
 
 Booking limits and provider synchronization depend on the plan and connector status. A booking duration does not change recording limits.
+
+See [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md) for the complete setup, privacy and troubleshooting guide.
 
 ## 18. Connect a provider
 
@@ -195,4 +199,5 @@ Never place recordings, recovery keys, passwords or private account tokens in a 
 - [Feature overview](FEATURES.md)
 - [FAQ](FAQ.md)
 - [Download and verification](DOWNLOADS.md)
+- [Local-first privacy and data control](LOCAL_FIRST_PRIVACY.md)
 - [Security reporting](../SECURITY.md)

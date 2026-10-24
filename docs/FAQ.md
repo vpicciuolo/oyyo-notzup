@@ -16,6 +16,10 @@ No. It can help with meetings, calls, classes, interviews, voice notes, product 
 
 Supported transcription, extraction, search and generated outputs run on the device. There is no hidden cloud-inference fallback. Optional account sync and storage are separate features that require the user’s choice and remain subject to the plan and privacy policy.
 
+## Do my files, searches or scans leave my device?
+
+Not by default. Recordings, imported files, scans, local searches and supported local-AI results remain on the device. Data leaves only when the user deliberately chooses an online action such as sharing an export, starting an online search, authorizing a connector or creating an encrypted backup. See [Local-First Privacy and Data Control](LOCAL_FIRST_PRIVACY.md).
+
 ## Can NotzUP analyze music or create a lyrics draft?
 
 For audio or music you are permitted to analyze, NotzUP can create a tentative lyrics or spoken-word draft and report grounded sound facts such as duration, sample rate, channels, estimated tempo, tonal estimate and dynamic range. Sung-word recognition can be unreliable over instruments or background audio, so review the draft against the original. NotzUP does not fetch or reproduce third-party lyrics catalogs.
@@ -39,6 +43,18 @@ Supported sources can produce reviewable summaries, explanations, action items, 
 ## Can I use NotzUP without an account?
 
 The desktop app includes a limited guest capture mode for evaluation. Account features such as registered-device entitlements, bookings, notifications, connectors and optional sync require sign-in.
+
+## Does every user have a personal booking page?
+
+Yes. A signed-in user can configure a personal public page and shareable link for meetings or appointments. Guests see available times in their own time zone and can choose a slot without creating a NotzUp account. Availability, duration, buffers and minimum notice are controlled by the page owner.
+
+## Can a guest reschedule or cancel a meeting?
+
+Where enabled, the confirmation includes a private management link for that booking. The guest or account owner can use it to reschedule or cancel. An `.ics` calendar file can also be included. Provider calendar synchronization works only after the user authorizes a supported connector and its configuration succeeds.
+
+## Does booking a meeting give NotzUp permission to record it?
+
+No. A booking and a recording are separate actions. Obtain participant consent and follow applicable law and workplace policy before recording.
 
 ## What can the Windows app capture?
 

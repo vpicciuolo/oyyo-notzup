@@ -9,7 +9,7 @@ download release and macOS can block its first launch.
 
 ## Requirements
 
-- macOS 10.15 or later;
+- macOS 11 or later;
 - an Intel or Apple silicon Mac;
 - about 50 MB for the downloaded DMG and installed application, plus storage
   for captures, imports and optional local models;

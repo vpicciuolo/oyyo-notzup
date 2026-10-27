@@ -2,7 +2,7 @@
 
 # Install and run OYYO NotzUP on macOS
 
-This guide covers the public `0.1.0-alpha.1` functional-test DMG. It contains
+This guide covers the public `1.0.27.0` offline test DMG. It contains
 one universal application for Intel and Apple silicon Macs. It is ad-hoc
 signed and **not notarized by Apple**, so it is not the production direct-
 download release and macOS can block its first launch.
@@ -24,11 +24,12 @@ copy of a recording.
 ## 1. Download only from the official release
 
 Open the official
-[macOS `0.1.0-alpha.1` GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos)
+[macOS `1.0.27.0` offline test prerelease](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-macos-offline-test)
 and download:
 
-- `OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg`;
-- `SHA256SUMS-macos.txt`.
+- `OYYO-NotzUP-1.0.27.0-macOS-universal-offline.dmg`;
+- `SHA256SUMS`;
+- `README.txt`.
 
 Do not install a copy received through email, chat, a mirror or another host.
 
@@ -38,23 +39,23 @@ Open **Terminal**, change to the download directory, and run:
 
 ```bash
 cd ~/Downloads
-shasum -a 256 OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg
+shasum -a 256 OYYO-NotzUP-1.0.27.0-macOS-universal-offline.dmg
 ```
 
 The exact expected SHA-256 value is:
 
 ```text
-1cfb137867c6c452df3f8461e3c6d5ce90c1dc6bd4d852095021d564b905d8eb
+eff66f53e3aead572ef1ce31900425ce79536330514543050dec9d2b36162117
 ```
 
 You can also verify it against the downloaded manifest:
 
 ```bash
-shasum -a 256 -c SHA256SUMS-macos.txt
+shasum -a 256 -c SHA256SUMS
 ```
 
-Continue only if the command reports `OK`. If verification fails, delete both
-files and contact [support@oyyo.one](mailto:support@oyyo.one).
+Continue only if the command reports `OK`. If verification fails, delete the
+downloads and contact [support@oyyo.one](mailto:support@oyyo.one).
 
 ## 3. Install the application
 
@@ -97,8 +98,10 @@ malware. Delete the download and report it instead.
    offered.
 3. Choose whether to allow privacy-safe analytics. Captured content is excluded
    from analytics.
-4. Let any selected local model finish downloading and integrity verification
-   before using its capability.
+4. Install the verified local speech or AI model pack while online and let its
+   integrity verification finish before expecting that capability to work
+   offline. The DMG installs the native application offline; model weights are
+   intentionally separate.
 5. Select **Capture anything**, choose an available source, name the session,
    and start.
 6. Keep the visible capture indicator available, then stop and save.
@@ -177,13 +180,16 @@ version-specific path and you have backed up required work.
 
 ## Release status
 
-- Version: `0.1.0-alpha.1`
+- Version: `1.0.27` (DMG package revision `1.0.27.0`)
 - Architecture: universal Intel `x86_64` + Apple silicon `arm64`
-- Minimum configured macOS version: `10.15`
+- Minimum configured macOS version: `11.0`
 - Signature: ad-hoc test signature
 - Apple notarization: not performed
-- Mac App Store: not submitted or approved
-- SHA-256: `1cfb137867c6c452df3f8461e3c6d5ce90c1dc6bd4d852095021d564b905d8eb`
+- Mac App Store: separate `1.0.27` build `7` is in TestFlight Beta App Review
+- Runtime checks: cold launch, local-library loading and microphone-device
+  discovery passed on Apple silicon; physical recording, Intel execution and
+  minimum-OS execution were not completed
+- SHA-256: `eff66f53e3aead572ef1ce31900425ce79536330514543050dec9d2b36162117`
 
 The production DMG will be published separately after Developer ID signing,
 Apple notarization and supported-device QA. The Mac App Store build follows a

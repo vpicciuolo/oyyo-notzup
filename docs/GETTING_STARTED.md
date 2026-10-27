@@ -17,8 +17,9 @@ proprietary source.
   disclosed unsigned direct installers.
 - **macOS:** follow the
   [macOS installation and first-run guide](INSTALL_MACOS.md). The current
-  `0.1.0-alpha.1` universal DMG is an ad-hoc-signed, non-notarized test build
-  and requires checksum verification plus an informed Gatekeeper override.
+  `1.0.27.0` universal offline DMG is an ad-hoc-signed, non-notarized test
+  build and requires checksum verification plus an informed Gatekeeper
+  override. The app installs offline; speech and AI model weights are separate.
 - **Android:** follow the [mobile installation guide](INSTALL_MOBILE.md) and
   verify the APK checksum and signing-certificate digest.
 - **Linux:** follow the [Linux installation guide](INSTALL_LINUX.md) and verify

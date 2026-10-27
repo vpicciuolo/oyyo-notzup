@@ -178,7 +178,7 @@ The current version 1.0.0 direct MSI and Setup EXE are intentionally unsigned, s
 
 ## Why does macOS block the test DMG?
 
-The public macOS `0.1.0-alpha.1` DMG is a functional-test build. It is ad-hoc signed rather than Developer ID signed and has not been notarized by Apple, so Gatekeeper is expected to block its first launch. Verify the official release URL and exact SHA-256 checksum before making any exception. Then follow the [macOS installation guide](INSTALL_MACOS.md), which explains **System Settings → Privacy & Security → Open Anyway**. Never override a warning that says the application is damaged or contains malware.
+The public macOS `1.0.27.0` universal offline DMG is a functional-test build. It is ad-hoc signed rather than Developer ID signed and has not been notarized by Apple, so Gatekeeper is expected to block its first launch. Verify the official release URL and exact SHA-256 checksum before making any exception. Then follow the [macOS installation guide](INSTALL_MACOS.md), which explains **System Settings → Privacy & Security → Open Anyway**. Never override a warning that says the application is damaged or contains malware.
 
 ## How do I give NotzUP microphone or screen permission on macOS?
 

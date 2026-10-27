@@ -2,7 +2,7 @@
 
 # Linux installation
 
-Status: Linux x86-64 direct packages are available as a 1.0.0 preview after
+Status: Linux x86-64 direct packages are available as a 1.0.27.0 pre-release after
 Ubuntu, Debian and Fedora virtual-machine validation. The strict Snap also
 passed local installation, confined CLI and rendered-GUI checks and is public
 in the [Snap Store](https://snapcraft.io/oyyo-notzup) on `latest/edge`. The direct
@@ -25,9 +25,8 @@ Download the GUI or CLI from the
 - [AppImage GUI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage)
 - [Ubuntu/Debian DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb)
 - [Fedora-family RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm)
-- [Strict Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap)
 - [Standalone CLI archive](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz)
-- [SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/SHA256SUMS-linux.txt)
+- [SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-SHA256SUMS.txt)
 
 Wayland/X11, microphone, PipeWire/PulseAudio, camera and desktop-portal
 behavior still need physical Linux validation.
@@ -60,15 +59,6 @@ tar -xzf OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz
 ./OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64/bin/oyyo-notzup-cli --help
 ```
 
-Direct Snap preview:
-
-```bash
-sudo snap install --dangerous ./OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap
-```
-
-`--dangerous` is required because the downloaded Snap is not signed by the
-Snap Store. Prefer the Store command below for the Store-delivered package.
-
 ## Ubuntu App Center
 
 The [public Snap Store listing](https://snapcraft.io/oyyo-notzup) is live and
@@ -95,11 +85,11 @@ sudo snap connect oyyo-notzup:audio-record
 
 ## Direct package verification
 
-Download the package and `SHA256SUMS-linux.txt` from the same tagged GitHub
+Download the package and `OYYO-NotzUP-1.0.27.0-Linux-SHA256SUMS.txt` from the same tagged GitHub
 Release, then run:
 
 ```bash
-sha256sum --check SHA256SUMS-linux.txt
+sha256sum --check OYYO-NotzUP-1.0.27.0-Linux-SHA256SUMS.txt
 ```
 
 Only install after the checksum succeeds. This preview does not include a

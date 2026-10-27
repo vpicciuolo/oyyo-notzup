@@ -16,7 +16,7 @@ OYYO NotzUP is available for Windows from the official [Microsoft Store](https:/
 | macOS 11+; Intel or Apple silicon | Mac App Store link appears here after review | [Universal `1.0.27.0` offline test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-macos-offline-test/OYYO-NotzUP-1.0.27.0-macOS-universal-offline.dmg) | **Test prerelease available**; app installs offline, model weights are separate; ad-hoc signed and not notarized |
 | Android | Google Play link appears here after review | [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) · [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 build 1000026; the same build is in Play closed-test review |
 | iPhone and iPad | Apple App Store link appears here after review | Not offered as a public sideload package | 1.0.27 build 11 is waiting for TestFlight Beta App Review |
-| Linux x64 | [Get OYYO NotzUP from the Snap Store (`latest/edge`)](https://snapcraft.io/oyyo-notzup) | [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm) | **1.0.27.0 direct pre-release**; build, tests, checksums, package metadata and virtual-display launch passed; physical permission QA remains |
+| Linux x64 | [Get OYYO NotzUP from the Snap Store (`latest/edge`)](https://snapcraft.io/oyyo-notzup) | [Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap) · [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm) | **Snap Store 1.0.27.0 revision 3 on `latest/edge`**; strict CLI and GUI validation passed; physical permission QA remains |
 | Command line | — | [Linux x86-64 CLI archive](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz) | **1.0.27.0 available**; CLI help and checksum verification passed |
 
 ## Windows
@@ -90,8 +90,9 @@ The Apple App Store is the supported public installation route. iOS/iPadOS `1.0.
 ## Linux and CLI
 
 The public [Snap Store listing](https://snapcraft.io/oyyo-notzup) provides both
-the graphical app and the `oyyo-notzup.cli` command. Version 1.0.0 is currently
-published to `latest/edge` while physical Linux permission QA continues:
+the graphical app and the `oyyo-notzup.cli` command. Version 1.0.27.0, revision
+3, is currently published to `latest/edge` while physical Linux permission QA
+continues:
 
 ```bash
 sudo snap install oyyo-notzup --edge

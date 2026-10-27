@@ -170,7 +170,7 @@ Account and booking events appear in NotzUP’s notification center. On supporte
 
 ## Where should I download NotzUP?
 
-Use only the relevant platform store, including the public [Snap Store listing](https://snapcraft.io/oyyo-notzup) for Linux, or the official [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). The Snap Store build is currently on `latest/edge` and installs with `sudo snap install oyyo-notzup --edge`. Direct builds are official only when the tagged release explicitly lists the same file name, version, architecture, signature status and SHA-256 checksum. Never assume a direct package is signed: the current Windows and Linux direct packages are unsigned, and the macOS test DMG is ad-hoc signed but not notarized.
+Use only the relevant platform store, including the public [Snap Store listing](https://snapcraft.io/oyyo-notzup) for Linux, or the official [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). Snap Store version 1.0.27.0 revision 3 is currently on `latest/edge` and installs with `sudo snap install oyyo-notzup --edge`. Direct builds are official only when the tagged release explicitly lists the same file name, version, architecture, signature status and SHA-256 checksum. Never assume a direct package is signed: the current Windows and Linux direct packages are unsigned, and the macOS test DMG is ad-hoc signed but not notarized.
 
 ## Why does Windows show a warning?
 

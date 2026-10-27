@@ -8,7 +8,7 @@ only after its own review and clean-machine installation checks pass.
 
 | Channel | User experience | Current status |
 | --- | --- | --- |
-| [Snap Store](https://snapcraft.io/oyyo-notzup) | Search/install through Ubuntu App Center; automatic updates | Version 1.0.0 is public on `latest/edge`; strict Snap CLI and GUI validation passed; physical QA remains before stable promotion |
+| [Snap Store](https://snapcraft.io/oyyo-notzup) | Search/install through Ubuntu App Center; automatic updates | Version 1.0.27.0 revision 3 is public on `latest/edge`; strict Snap CLI and GUI validation passed; physical QA remains before stable promotion |
 | GitHub Releases | AppImage, DEB, RPM and CLI direct downloads | [Unsigned 1.0.27.0 x86-64 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux); build, tests, checksum, package metadata, CLI and virtual-display GUI smoke checks passed; physical permission QA remains |
 | Ubuntu/Debian archive | Native package search through official repositories | Separate distribution-maintainer review required; not submitted |
 | Fedora COPR / openSUSE OBS | Repository-managed RPM updates | Possible later channel; account, source-package and distro review required |

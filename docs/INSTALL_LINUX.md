@@ -62,8 +62,8 @@ tar -xzf OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz
 ## Ubuntu App Center
 
 The [public Snap Store listing](https://snapcraft.io/oyyo-notzup) is live and
-version 1.0.0 is currently published to `latest/edge`. Install the GUI and CLI
-from the Store with:
+version 1.0.27.0, revision 3, is currently published to `latest/edge`. Install
+the GUI and CLI from the Store with:
 
 ```bash
 sudo snap install oyyo-notzup --edge

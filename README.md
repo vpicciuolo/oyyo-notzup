@@ -13,10 +13,10 @@
 [![macOS test DMG](https://img.shields.io/badge/macOS-Universal%20test%20DMG-111827?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos)
 [![Android direct download](https://img.shields.io/badge/Android-Signed%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android)
 [![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Install%20OYYO%20NotzUP-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=111827)](https://snapcraft.io/oyyo-notzup)
-[![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux)
+[![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux)
 [![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
 
-[Download options](docs/DOWNLOADS.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Offline translation and accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Android 1.0.0 pre-release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [1.0.27.0 release notes](docs/RELEASE_NOTES_1.0.27.0.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Offline translation and accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Google Play](https://play.google.com/store/apps/details?id=com.notzup.oyyo) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -32,11 +32,11 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 
 ## Why NotzUP
 
-- **A mobile barcode inventory, not a basic code reader:** Pro and Organization users can scan only on demand, run a controlled counting session, import a CSV or Excel catalog, compare expected and counted quantities, and export CSV, Excel or a printable PDF. This capability is exclusive to the mobile app and is currently available on Android.
 - **More than a screen recorder:** audio, screen, screenshot, scan, file and text capture live together.
 - **Private local intelligence:** supported transcription, OCR, search and grounded outputs run on the device, without a hidden cloud-model fallback.
 - **A searchable source library:** find relevant transcript passages and return to their timestamped source context.
-- **Useful outputs you control:** review summaries, explanations, actions, Markdown and JSON before exporting or sharing.
+- **Useful outputs you control:** edit, copy, translate, listen to, export and share transcripts, summaries, explanations, actions, Markdown and JSON without losing the source relationship.
+- **Meeting and call intelligence:** keep speaker-labelled turns when the source provides them, correct names, and create reviewable notes covering the overview, topics, concepts, problems, decisions, risks, questions and action items.
 - **Audio and music understanding:** create review drafts of lyrics or spoken words and inspect duration, sample rate, channels, estimated tempo, tonal estimate and dynamic range.
 - **Grounded visual understanding:** use a compatible verified local vision pack for scene descriptions, alt text and approved object labels.
 - **Context-aware offline translation:** choose a destination language, keep paragraphs and lists together, and select faithful or natural-context output. English and Italian also include a light playful style; Italian adds clearly labelled beta Napoletano and Barese profiles. A correction you review and approve can be reused privately on that device.
@@ -47,6 +47,8 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 - **Fast access:** desktop controls, tray/menu-bar actions, Android Quick Settings and purpose-built widgets keep capture close.
 - **Encrypted backup with your recovery key:** supported result and inventory backups are encrypted on the device before upload. The recovery key is controlled by the user and is never sent to NotzUP.
 - **One storage pool across authorized devices:** personal and Organization spaces keep separate quotas, while authorized mobile and desktop installations can use the same selected space and restore a dated backup from another device.
+- **Creative Blueprint for user-owned media:** reverse-engineer an imported image or sampled video into observed ingredients, an editable recreation plan, a grounded generation prompt, negative prompt and test variants. Virality observations are explicitly hypotheses unless real performance metrics are supplied.
+- **Specialist mobile inventory:** Pro and Organization users can scan on demand, run a controlled barcode or QR counting session, import CSV or Excel catalogs, compare expected and counted quantities, and export CSV, Excel or printable PDF. This specialist capability is exclusive to the mobile app and is currently available on Android.
 
 ## Mobile-exclusive barcode and QR inventory
 
@@ -81,6 +83,8 @@ External calendars affect availability only after the user authorizes the provid
 - Offline translation with installed language packs, paragraph-aware natural context and reviewed local correction memory
 - Local transcript search with source context and citations
 - Reviewable summaries, explanations, action items, Markdown and JSON
+- Structured meeting and call notes with editable speaker labels, topics, problems, decisions, risks, questions and actions
+- Creative Blueprint for user-owned images and videos, including grounded recreation prompts, personalization and test variants
 - Local SQLite metadata and OS application-data storage
 - System-language detection plus an in-app language selector
 - Consent-controlled privacy-safe analytics that excludes captured content
@@ -97,7 +101,7 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 | macOS 10.15+; Intel or Apple silicon | Mac App Store after review | [Universal test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg) | **Test pre-release available**; ad-hoc signed and not notarized; manual Gatekeeper approval required |
 | Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 build 1000026 available; the same build is in closed-test review and production access is not yet available |
 | iPhone and iPad | Apple App Store | No public sideload package | In preparation |
-| Linux x64 | [Snap Store — latest/edge](https://snapcraft.io/oyyo-notzup) | [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.rpm) · [CLI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-CLI-1.0.0-Linux-x86_64.tar.gz) | **Snap Store edge release available**; unsigned direct packages passed VM validation; physical Linux permission QA remains |
+| Linux x64 | [Snap Store — latest/edge](https://snapcraft.io/oyyo-notzup) | [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm) · [CLI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz) | **1.0.27.0 direct GUI and CLI**; build, tests, checksums, package metadata and virtual-display launch passed; physical Linux permission QA remains |
 
 The Microsoft Store and Snap Store links are the recommended Store routes for their platforms. OYYO NotzUP is currently published to Snap's `latest/edge` channel while physical Linux permission QA continues. The Windows direct installers are provided for users who explicitly prefer a traditional setup wizard or MSI and understand that version 1.0.0 is not Authenticode-signed.
 
@@ -172,6 +176,8 @@ For a feature-by-feature walkthrough, use the [Complete User Guide](docs/USER_GU
 
 Choose **Audio** for microphone capture or **Screen recording** when you need a permitted app/window and eligible system audio. Keep the recording indicator visible, stop and save, then run the verified local transcription model. Always obtain participant consent and follow applicable recording law and workplace policy.
 
+When the transcript contains speaker turns, NotzUP preserves labels such as **Person 1** and **Person 2**. Review or rename them, then generate structured meeting notes that separate the overview, subjects discussed, concepts and explanations, problems, decisions, risks, open questions and action items. The result remains editable and tied to the transcript for verification.
+
 ### Turn a document or screenshot into useful notes
 
 Choose **Screenshot**, **Scan** or **Import a file**. Select the outputs you want—such as extracted text, summary, explanation, actions or Markdown—and review the evidence before exporting.
@@ -193,6 +199,10 @@ Open a populated result section and choose **Listen aloud**. NotzUP selects only
 ### Summarize any supported source
 
 From the source result, choose the outputs you need: summary, explanation, action items, clean text, Markdown or structured JSON. Each output stays tied to the source so you can review it before exporting or sharing.
+
+### Reverse-engineer a user-owned image or video
+
+Import an image or video you are authorized to use and select **Creative Blueprint**. NotzUP analyzes the available local evidence, then creates an editable recreation plan, master generation prompt, negative prompt, personalization notes and format or hook variants. It does not download media from social links, copy a creator identity or promise virality. Without reach, retention, watch-time, save or share metrics, attention and virality explanations are clearly labelled as hypotheses to test.
 
 ### Search your private capture library
 

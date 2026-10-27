@@ -20,14 +20,14 @@ The first x86-64 release is designed to provide:
 - a standalone CLI archive.
 
 Download the GUI or CLI from the
-[Linux 1.0.0 release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux):
+[Linux 1.0.27.0 release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux):
 
-- [AppImage GUI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage)
-- [Ubuntu/Debian DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.deb)
-- [Fedora-family RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.rpm)
-- [Strict Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.snap)
-- [Standalone CLI archive](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-CLI-1.0.0-Linux-x86_64.tar.gz)
-- [SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/SHA256SUMS-linux.txt)
+- [AppImage GUI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage)
+- [Ubuntu/Debian DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb)
+- [Fedora-family RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm)
+- [Strict Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap)
+- [Standalone CLI archive](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz)
+- [SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/SHA256SUMS-linux.txt)
 
 Wayland/X11, microphone, PipeWire/PulseAudio, camera and desktop-portal
 behavior still need physical Linux validation.
@@ -37,33 +37,33 @@ behavior still need physical Linux validation.
 AppImage:
 
 ```bash
-chmod +x OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage
-./OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage
+chmod +x OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage
+./OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage
 ```
 
 Ubuntu or Debian:
 
 ```bash
-sudo apt install ./OYYO-NotzUP-1.0.0-Linux-x86_64.deb
+sudo apt install ./OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb
 ```
 
 Fedora-family distributions:
 
 ```bash
-sudo dnf install ./OYYO-NotzUP-1.0.0-Linux-x86_64.rpm
+sudo dnf install ./OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm
 ```
 
 Standalone CLI:
 
 ```bash
-tar -xzf OYYO-NotzUP-CLI-1.0.0-Linux-x86_64.tar.gz
-./OYYO-NotzUP-CLI-1.0.0-Linux-x86_64/bin/oyyo-notzup-cli --help
+tar -xzf OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz
+./OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64/bin/oyyo-notzup-cli --help
 ```
 
 Direct Snap preview:
 
 ```bash
-sudo snap install --dangerous ./OYYO-NotzUP-1.0.0-Linux-x86_64.snap
+sudo snap install --dangerous ./OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap
 ```
 
 `--dangerous` is required because the downloaded Snap is not signed by the

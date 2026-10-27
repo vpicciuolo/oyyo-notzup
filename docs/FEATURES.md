@@ -24,6 +24,8 @@ Each saved source opens in its own organized workspace. Available tabs depend on
 - **Visual analysis:** scene, object, label and non-identifying face-count observations.
 - **Visible text:** OCR output from images, pages and sampled video frames.
 - **Summary and actions:** a reviewable local summary and extracted follow-up items.
+- **Meeting notes:** speaker-labelled turns, overview, topics, concepts, problems, decisions, risks, questions and action items for calls and meetings.
+- **Creative Blueprint:** an editable recreation plan and grounded generation prompt for user-owned images and videos.
 
 The user can select and copy part of a section, edit the whole section, share one result, or export it as Markdown, Excel, text or PDF. A complete ZIP keeps the original and generated results together. The branded printable PDF combines the useful sections into one document.
 
@@ -43,6 +45,23 @@ The user can select and copy part of a section, edit the whole section, share on
 - Edit and approve an exact translation correction for private reuse on that device.
 
 The beta dialect profiles apply conservative local wording changes after the Italian translation and must be reviewed. They do not claim the broader intent, cultural adaptation or full dialect coverage described by [OYYO Language](https://oyyo.one/language). Read the [offline translation and accessibility guide](OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md).
+
+## Meeting and call intelligence
+
+- Preserve speaker labels found in a transcript and display turns as **Person 1**, **Person 2** or reviewed names.
+- Edit one speaker label or apply a corrected name to matching turns without changing timestamps.
+- Generate structured, reviewable meeting notes with an overview, topics, key points, concepts and explanations, problems, decisions, risks, open questions and action items.
+- Keep every conclusion tied to the local transcript so the user can verify, edit, copy, translate, listen to, export or share it.
+- Never invent a participant identity when the source does not provide one.
+
+## Creative Blueprint for images and videos
+
+- Analyze a user-selected image or sampled video locally; social-link downloading is not supported.
+- Separate observed evidence from creative suggestions and unsupported claims.
+- Produce an editable recreation plan, master generation prompt, negative prompt, personalization notes and format or hook variants.
+- Let the user add brand, product, audience, tone, platform and requested changes before regenerating the blueprint.
+- Treat explanations of attention or virality as hypotheses unless the user supplies real reach, retention, watch-time, save or share metrics.
+- Keep rights, consent, likeness, watermark, privacy and claim-review checks visible in the result.
 
 ## Accessibility and Android device support
 

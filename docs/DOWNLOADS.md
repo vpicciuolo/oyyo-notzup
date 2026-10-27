@@ -8,7 +8,7 @@ This page lists every official OYYO NotzUP installation channel. Store packages 
 
 ## Current availability
 
-OYYO NotzUP is available for Windows from the official [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) and for Linux from the public [Snap Store listing](https://snapcraft.io/oyyo-notzup) on the `latest/edge` channel. A traditional Windows Setup EXE and MSI are also available on the [Windows 1.0.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows); those two direct installers are intentionally unsigned and can trigger SmartScreen. A universal macOS `0.1.0-alpha.1` functional-test DMG is available on the [macOS test release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos); it is ad-hoc signed, not notarized by Apple and requires an informed Gatekeeper override. Signed Android 1.0.0 build `1000026` is available on the public [Android GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android). The same build has been submitted to Google Play closed testing; public production access is not yet available. Linux x86-64 GUI and CLI preview packages are also available on the [Linux 1.0.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux). macOS and iOS production Store packages are not public yet. Do not install a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
+OYYO NotzUP is available for Windows from the official [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) and for Linux from the public [Snap Store listing](https://snapcraft.io/oyyo-notzup) on the `latest/edge` channel. A traditional Windows Setup EXE and MSI are also available on the [Windows 1.0.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows); those two direct installers are intentionally unsigned and can trigger SmartScreen. A universal macOS `0.1.0-alpha.1` functional-test DMG is available on the [macOS test release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v0.1.0-alpha.1-macos); it is ad-hoc signed, not notarized by Apple and requires an informed Gatekeeper override. Signed Android 1.0.0 build `1000026` is available on the public [Android GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android). The same build has been submitted to Google Play closed testing; public production access is not yet available. Linux x86-64 GUI and CLI packages are available on the [Linux 1.0.27.0 GitHub Release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux). macOS and iOS production Store packages are not public yet. Do not install a copy hosted outside this repository, the relevant platform Store, or [notzup.com](https://notzup.com/).
 
 | Platform | Store installation | Direct installation | Status |
 | --- | --- | --- | --- |
@@ -16,8 +16,8 @@ OYYO NotzUP is available for Windows from the official [Microsoft Store](https:/
 | macOS 10.15+; Intel or Apple silicon | Mac App Store link appears here after review | [Universal `0.1.0-alpha.1` test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v0.1.0-alpha.1-macos/OYYO-NotzUP-0.1.0-alpha.1-macOS-universal-test.dmg) | **Test pre-release available**; ad-hoc signed, not notarized, manual Gatekeeper approval required |
 | Android | Google Play link appears here after review | [arm64-v8a APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) · [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 build 1000026; the same build is in Play closed-test review |
 | iPhone and iPad | Apple App Store link appears here after review | Not offered as a public sideload package | In preparation |
-| Linux x64 | [Get OYYO NotzUP from the Snap Store (`latest/edge`)](https://snapcraft.io/oyyo-notzup) | [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.rpm) · [Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-1.0.0-Linux-x86_64.snap) | **Store edge release available**; VM validation passed; physical permission QA remains before stable promotion |
-| Command line | — | [Linux x86-64 CLI archive](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/OYYO-NotzUP-CLI-1.0.0-Linux-x86_64.tar.gz) | **1.0.0 preview available**; CLI VM validation passed |
+| Linux x64 | [Get OYYO NotzUP from the Snap Store (`latest/edge`)](https://snapcraft.io/oyyo-notzup) | [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm) · [Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap) | **1.0.27.0 direct release**; build, tests, checksums, package metadata and virtual-display launch passed; physical permission QA remains |
+| Command line | — | [Linux x86-64 CLI archive](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz) | **1.0.27.0 available**; CLI help and checksum verification passed |
 
 ## Windows
 
@@ -101,12 +101,12 @@ is a separate unsigned preview artifact and requires `--dangerous`; prefer the
 Store installation unless you specifically need the downloaded package.
 
 Linux x86-64 AppImage, DEB, RPM, Snap and standalone CLI packages are available
-from the [version 1.0.0 Linux preview release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-linux).
+from the [version 1.0.27.0 Linux release](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux).
 The DEB and RPM include `oyyo-notzup-cli`; the Snap exposes
 `oyyo-notzup.cli`. Clean VM installation and runtime checks passed, including
 the confined Snap GUI. These direct packages are not distribution-store or
 code signed. Verify them with the published
-[SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-linux/SHA256SUMS-linux.txt).
+[SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/SHA256SUMS-linux.txt).
 Physical Linux audio, camera, screen-capture and portal testing still remains.
 See the
 [Linux installation guide](INSTALL_LINUX.md) and
@@ -138,9 +138,9 @@ spctl --assess --type open --context context:primary-signature -vv OYYO-NotzUP-0
 Linux or Android package checksum:
 
 ```bash
-sha256sum OYYO-NotzUP-1.0.0-Linux-x86_64.AppImage
-sha256sum OYYO-NotzUP-1.0.0-Linux-x86_64.deb
-sha256sum OYYO-NotzUP-1.0.0-Linux-x86_64.rpm
+sha256sum OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage
+sha256sum OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb
+sha256sum OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm
 sha256sum OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk
 sha256sum OYYO-AI-NotzUP-Android-1.0.0-universal.apk
 ```

@@ -40,6 +40,14 @@ No. Face analysis reports a count, not an identity. Possible names or brands can
 
 Supported sources can produce reviewable summaries, explanations, action items, clean text, Markdown and structured JSON. Installed local language packs can translate supported outputs offline. Users can choose faithful or paragraph-aware natural context; English and Italian include a light playful style, while Italian also offers beta Napoletano and Barese profiles. Every generated result remains tied to its captured source for review.
 
+## Can NotzUP create a real meeting or call summary?
+
+Yes. When the transcript includes speaker turns, NotzUP preserves labels such as Person 1 and Person 2, lets the user correct participant names, and builds structured meeting notes with an overview, topics, key points, concepts and explanations, problems, decisions, risks, open questions and action items. It never invents a participant identity when the source does not provide one. The transcript and every generated section remain editable, copyable, translatable, readable aloud, exportable and shareable.
+
+## Can NotzUP reverse-engineer an image or video into an AI prompt?
+
+Yes, for a file the user owns or is authorized to analyze. Creative Blueprint separates locally observed ingredients from creative suggestions, then creates an editable recreation plan, master generation prompt, negative prompt, personalization notes and test variants. The user can add a brand, product, audience, tone, platform or requested changes. NotzUP does not download social-media links, copy a creator identity or guarantee that a result will become viral. Without real performance data, explanations about attention or virality are clearly labelled as hypotheses to test.
+
 ## Are the playful and dialect translations generated in the cloud?
 
 No. The language pack, paragraph processing, supported style profile and approved correction memory run on the device. Napoletano and Barese are experimental local profiles applied after Italian translation, not a claim of complete regional-language coverage. Review the result with a native speaker when accuracy matters. A correction is reused only after the user edits and explicitly approves that exact source, language and style result.

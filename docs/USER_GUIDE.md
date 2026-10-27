@@ -102,7 +102,7 @@ For any populated section:
 4. Choose **Export section** and select Markdown, Excel, text or PDF.
 5. Use the top export card for a full branded PDF, complete ZIP, Copy all or Share package.
 
-## 10. Create a summary and action items
+## 10. Create a summary, meeting notes and action items
 
 1. Review the source transcript or extracted text first.
 2. Open **Summary and actions**.
@@ -112,7 +112,21 @@ For any populated section:
 
 Generated results are drafts. NotzUP keeps them tied to the source so the user can verify them.
 
-## 11. Translate offline
+For a meeting or call, review the speaker-labelled transcript first. Rename **Person 1**, **Person 2** or other detected labels when needed, then refresh **Meeting notes**. NotzUP organizes the result into an overview, topics, key points, concepts and explanations, problems, decisions, risks, open questions and action items. It does not invent a participant identity when no label exists. Every section can be edited, copied, translated, read aloud, exported or shared like other library results.
+
+## 11. Create a Creative Blueprint from an image or video
+
+1. Import an image or video you own or are authorized to analyze. NotzUP does not download media from social links.
+2. Open the source workspace and choose **Creative Blueprint**.
+3. Review the observed visual and timing ingredients separately from the attention or virality hypotheses.
+4. Optionally add your brand, product, audience, tone, platform and requested changes.
+5. Create or refresh the personalized blueprint.
+6. Edit and copy the recreation plan, master generation prompt, negative prompt or test variants into your chosen creative tool.
+7. Verify rights, consent, likeness, watermarks, private information and every factual claim before publishing.
+
+Without real reach, retention, watch-time, save or share metrics, NotzUP cannot know why media became viral. It therefore labels these explanations as hypotheses to test and never promises performance.
+
+## 12. Translate offline
 
 1. Install the required supported language pack when offered.
 2. Open a text-bearing result.
@@ -127,7 +141,7 @@ Expected result: translated text generated on the device without uploading the c
 
 Approved corrections remain in private on-device translation memory. The beta dialect profiles are conservative styling aids and do not replace review by a native speaker. See [Offline Translation, Read-Aloud and Accessibility](OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) for supported profiles, privacy and troubleshooting.
 
-## 12. Listen aloud and use accessibility settings
+## 13. Listen aloud and use accessibility settings
 
 1. Open a populated transcript, visual, visible-text or summary section.
 2. Choose **Listen aloud**.
@@ -137,7 +151,7 @@ Approved corrections remain in private on-device translation memory. The beta di
 
 NotzUP never selects a network-required voice for this feature. Android touch layouts adapt to phones, tablets and foldables. Google TV is not supported.
 
-## 13. Export and share
+## 14. Export and share
 
 - **Markdown:** best for notes, repositories and knowledge tools.
 - **Excel:** best for structured tables and inventory results.
@@ -147,15 +161,15 @@ NotzUP never selects a network-required voice for this feature. Android touch la
 
 Share only the minimum section needed. Review the Android share destination before sending, because another app's privacy rules apply after export.
 
-## 14. Scan a barcode inventory
+## 15. Scan a barcode inventory
 
 Use the dedicated [Mobile Barcode and QR Inventory guide](MOBILE_BARCODE_INVENTORY.md). The feature is mobile-only, currently Android, and requires Pro or Organization.
 
-## 15. Back up and restore encrypted results
+## 16. Back up and restore encrypted results
 
 Use the [Encrypted Backup and Cloud Storage guide](ENCRYPTED_BACKUP_AND_STORAGE.md). Configure two-factor authentication, protect the recovery key, select the correct storage space, and test a restore before relying on the backup.
 
-## 16. Manage notifications
+## 17. Manage notifications
 
 1. Open the bell icon.
 2. Open an item to reach its safe destination.
@@ -165,7 +179,7 @@ Use the [Encrypted Backup and Cloud Storage guide](ENCRYPTED_BACKUP_AND_STORAGE.
 
 In-app and native push delivery depend on account configuration, device permission and the event's enabled delivery channels.
 
-## 17. Manage storage, devices and sessions
+## 18. Manage storage, devices and sessions
 
 1. Open the web account or mobile Settings.
 2. Review personal and Organization storage separately.
@@ -174,7 +188,7 @@ In-app and native push delivery depend on account configuration, device permissi
 5. Review active account sessions separately from enrolled device slots.
 6. Download required backups before deleting cloud files.
 
-## 18. Use calendar and bookings
+## 19. Use calendar and bookings
 
 1. Open **Calendar** or **Bookings**.
 2. Create or review an event type and your personal public booking page.
@@ -188,7 +202,7 @@ Booking limits and provider synchronization depend on the plan and connector sta
 
 See [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md) for the complete setup, privacy and troubleshooting guide.
 
-## 19. Connect a provider
+## 20. Connect a provider
 
 1. Open **Connectors**.
 2. Choose the provider.
@@ -199,7 +213,7 @@ See [Personal Booking Pages and Meeting Links](PUBLIC_BOOKING_PAGES.md) for the 
 
 Signing in with Google or Microsoft does not automatically grant calendar or file access.
 
-## 20. Report a problem
+## 21. Report a problem
 
 1. Open support from the help icon, or use the app's shake-to-report control when enabled.
 2. Review the diagnostic information before sharing it.

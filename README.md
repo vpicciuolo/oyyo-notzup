@@ -1,15 +1,38 @@
-# NotzUp
+<div align="center">
 
-**Capture anything. Make it useful.**
+<img src="assets/oyyo-notzup-hero.png" alt="OYYO NotzUP private local AI capture and knowledge workspace" width="100%">
 
-NotzUp brings meetings, recordings, screenshots, documents, images, video, text and links into one searchable workspace. Turn supported sources into transcripts, summaries, action items and creative plans, with supported AI processing on your own device.
+# OYYO NotzUP
 
-This is the official public repository for **downloads, release notes and user guides**. The application is proprietary; its source code is maintained separately.
+## Private capture, audio and music analysis, visual understanding and offline transcription in one workspace
+
+**Capture anything. Understand it locally.**
+
+[![Get it from Microsoft](https://img.shields.io/badge/Microsoft%20Store-Get%20OYYO%20AI%20NotzUP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9NX0604FJ0XN)
+[![App Store — iPhone and iPad](https://img.shields.io/badge/App%20Store-iPhone%20%26%20iPad-111827?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6826987959)
+[![Windows direct installer](https://img.shields.io/badge/Windows-Direct%20installer%20(unsigned)-2563EB?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows)
+[![macOS test DMG](https://img.shields.io/badge/macOS-1.0.27.0%20Universal%20DMG-111827?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-macos-offline-test)
+[![Android direct download](https://img.shields.io/badge/Android-Signed%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android)
+[![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Install%20OYYO%20NotzUP-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=111827)](https://snapcraft.io/oyyo-notzup)
+[![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux)
+[![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
+
+[Download options](docs/DOWNLOADS.md) · [1.0.27.0 release notes](docs/RELEASE_NOTES_1.0.27.0.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Offline translation and accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [App Store](https://apps.apple.com/app/id6826987959) · [Android preview](docs/DOWNLOADS.md#android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
+![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
+![Private core](https://img.shields.io/badge/source-proprietary-111827?style=for-the-badge)
+
 
 <a href="https://apps.microsoft.com/detail/9NX0604FJ0XN"><img src="assets/microsoft-store-badge.svg" alt="Download NotzUp for Windows from Microsoft Store" height="44"></a>
 <a href="https://apps.apple.com/app/id6826987959"><img src="assets/app-store-badge.svg" alt="Download NotzUp for iPhone and iPad on the App Store" height="44"></a>
 
-[Website](https://notzup.com/) · [Choose your download](docs/DOWNLOADS.md) · [Feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Help](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+
+</div>
+
+NotzUp brings meetings, recordings, screenshots, documents, images, video, text and links into one searchable workspace. Turn supported sources into transcripts, summaries, action items and creative plans, with supported AI processing on your own device.
+
+This is the official public repository for **downloads, release notes and user guides**. The application is proprietary; its source code is maintained separately.
 
 ## What you can do
 

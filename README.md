@@ -1,34 +1,41 @@
-<div align="center">
+# NotzUp
 
-<img src="assets/oyyo-notzup-hero.png" alt="OYYO NotzUP private local AI capture and knowledge workspace" width="100%">
+**Capture anything. Make it useful.**
 
-# OYYO NotzUP
+NotzUp brings meetings, recordings, screenshots, documents, images, video, text and links into one searchable workspace. Turn supported sources into transcripts, summaries, action items and creative plans, with supported AI processing on your own device.
 
-## Private capture, audio and music analysis, visual understanding and offline transcription in one workspace
+This is the official public repository for **downloads, release notes and user guides**. The application is proprietary; its source code is maintained separately.
 
-**Capture anything. Understand it locally.**
+<a href="https://apps.microsoft.com/detail/9NX0604FJ0XN"><img src="assets/microsoft-store-badge.svg" alt="Download NotzUp for Windows from Microsoft Store" height="44"></a>
+<a href="https://apps.apple.com/app/id6826987959"><img src="assets/app-store-badge.svg" alt="Download NotzUp for iPhone and iPad on the App Store" height="44"></a>
 
-[![Get it from Microsoft](https://img.shields.io/badge/Microsoft%20Store-Get%20OYYO%20AI%20NotzUP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9NX0604FJ0XN)
-[![Windows direct installer](https://img.shields.io/badge/Windows-Direct%20installer%20(unsigned)-2563EB?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows)
-[![macOS test DMG](https://img.shields.io/badge/macOS-1.0.27.0%20Universal%20DMG-111827?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-macos-offline-test)
-[![Android direct download](https://img.shields.io/badge/Android-Signed%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android)
-[![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Install%20OYYO%20NotzUP-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=111827)](https://snapcraft.io/oyyo-notzup)
-[![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux)
-[![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
+[Website](https://notzup.com/) · [Choose your download](docs/DOWNLOADS.md) · [Feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Help](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
-[Download options](docs/DOWNLOADS.md) · [1.0.27.0 release notes](docs/RELEASE_NOTES_1.0.27.0.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Offline translation and accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Google Play](https://play.google.com/store/apps/details?id=com.notzup.oyyo) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+## What you can do
 
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
-![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
-![Private core](https://img.shields.io/badge/source-proprietary-111827?style=for-the-badge)
+| Bring into NotzUp | Turn it into |
+| --- | --- |
+| Meetings and voice recordings | Searchable transcripts, meeting notes, decisions and action items |
+| Documents, scans and screenshots | Extracted text, explanations and reviewable summaries |
+| Images and video | Grounded descriptions, accessible alt text and Creative Blueprint recreation plans |
+| Audio and music | Reviewable spoken-word or lyrics drafts and measured sound characteristics |
+| Your growing library | Source-linked search, editable results, cited Markdown and structured JSON |
 
-</div>
+Features vary by platform, hardware, permissions, plan and installed local packs. Record or analyze only content you are authorized to use, and review generated results against the original.
 
-OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI](https://oyyo.one/)** for Windows, macOS, Linux, Android and iOS. Record audio or a permitted screen, save screenshots, scan with the camera, import documents, images, music and video, or keep text and links. Then use on-device intelligence to transcribe speech, draft lyrics or spoken words, analyze music and sound, describe visuals, translate, search, summarize and turn each source into useful, reviewable work. Local originals remain under your control and stay on your device unless you explicitly choose a connected or online feature.
+## Get NotzUp
 
-**Local OYYO AI Core — running privately on your device.**
+| Device | Download | Availability |
+| --- | --- | --- |
+| Windows | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | Available now |
+| iPhone and iPad | [App Store](https://apps.apple.com/app/id6826987959) | Available now |
+| macOS | [Universal offline test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-macos-offline-test) | Test prerelease; ad-hoc signed, not notarized |
+| Android | [Signed APK](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) | Direct preview; Google Play remains in closed testing |
+| Linux | [Snap Store](https://snapcraft.io/oyyo-notzup) · [Desktop and CLI packages](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux) | Preview; Snap uses the `latest/edge` channel |
 
-> Official direct downloads appear only on the [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). The Microsoft Store package is signed by Microsoft. Windows 1.0.0 direct EXE/MSI files are unsigned and can trigger Microsoft Defender SmartScreen. The macOS `1.0.27.0` universal offline test DMG is ad-hoc signed, not notarized by Apple, and can be blocked by Gatekeeper until the user explicitly approves it. Never trust an installer copied to an unofficial host.
+<a href="https://snapcraft.io/oyyo-notzup"><img src="assets/snap-store-badge.svg" alt="Get NotzUp from the Snap Store — edge preview channel" height="44"></a>
+
+A free NotzUp account is required to sign in. [Installation details and checksums](docs/DOWNLOADS.md) include alternate Windows installers and platform-specific instructions.
 
 ## Why NotzUP
 
@@ -48,11 +55,11 @@ OYYO NotzUP is the private capture and knowledge workspace inside **[OYYO ONE AI
 - **Encrypted backup with your recovery key:** supported result and inventory backups are encrypted on the device before upload. The recovery key is controlled by the user and is never sent to NotzUP.
 - **One storage pool across authorized devices:** personal and Organization spaces keep separate quotas, while authorized mobile and desktop installations can use the same selected space and restore a dated backup from another device.
 - **Creative Blueprint for user-owned media:** reverse-engineer an imported image or sampled video into observed ingredients, an editable recreation plan, a grounded generation prompt, negative prompt and test variants. Virality observations are explicitly hypotheses unless real performance metrics are supplied.
-- **Specialist mobile inventory:** Pro and Organization users can scan on demand, run a controlled barcode or QR counting session, import CSV or Excel catalogs, compare expected and counted quantities, and export CSV, Excel or printable PDF. This specialist capability is exclusive to the mobile app and is currently available on Android.
+- **Specialist mobile inventory:** Pro and Organization users can scan on demand, run a controlled barcode or QR counting session, import CSV or Excel catalogs, compare expected and counted quantities, and export CSV, Excel or printable PDF. This specialist capability is available on Android, iPhone and iPad for supported plans; workflows vary by platform.
 
 ## Mobile-exclusive barcode and QR inventory
 
-The Android mobile app includes a purpose-built barcode and QR inventory workspace for **Pro and Organization** plans. Nothing is counted until the user taps **Scan one**, unless they deliberately start controlled automatic scanning. The manual and automatic controls stay beside the camera on phones; tablets and foldables use a two-column camera-and-results layout. Repeated codes increase the quantity instead of creating an unreadable list.
+The Android, iPhone and iPad apps include a purpose-built barcode and QR inventory workspace for **Pro and Organization** plans. Nothing is counted until the user taps **Scan one**, unless they deliberately start controlled automatic scanning. The manual and automatic controls stay beside the camera on phones; tablets and foldables use a two-column camera-and-results layout. Repeated codes increase the quantity instead of creating an unreadable list.
 
 Inventory teams can import a CSV, XLS or XLSX catalog with description, article ID, barcode, expected quantity, location and unit. NotzUP then shows expected quantity, scanned quantity, difference, match status and unknown scanned items. Results can be exported as CSV for warehouse updates, Excel with detailed and totals sheets, or a branded printable PDF.
 
@@ -100,7 +107,7 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 | Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | [Setup EXE](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64-Setup.exe) · [MSI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64.msi) | **Store available**; direct installers are unsigned and require manual approval on some PCs |
 | macOS 11+; Intel or Apple silicon | Mac App Store after review | [Universal 1.0.27.0 offline test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-macos-offline-test/OYYO-NotzUP-1.0.27.0-macOS-universal-offline.dmg) | **Test prerelease available**; app installs offline, model weights are separate; ad-hoc signed and not notarized |
 | Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 build 1000026 available; the same build is in closed-test review and production access is not yet available |
-| iPhone and iPad | Apple App Store | No public sideload package | 1.0.27 build 11 is waiting for TestFlight Beta App Review |
+| iPhone and iPad | [Apple App Store](https://apps.apple.com/app/id6826987959) | No public sideload package | **Available on the App Store** |
 | Linux x64 | [Snap Store — latest/edge](https://snapcraft.io/oyyo-notzup) | [Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap) · [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm) · [CLI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz) | **Snap Store 1.0.27.0 revision 3 on `latest/edge`**; strict CLI and GUI validation passed; physical Linux permission QA remains before stable promotion |
 
 The Microsoft Store and Snap Store links are the recommended Store routes for their platforms. OYYO NotzUP is currently published to Snap's `latest/edge` channel while physical Linux permission QA continues. The Windows direct installers are provided for users who explicitly prefer a traditional setup wizard or MSI and understand that version 1.0.0 is not Authenticode-signed.

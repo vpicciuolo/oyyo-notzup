@@ -2,9 +2,10 @@
 
 # Getting Started with NotzUp
 
-OYYO NotzUP is available from the Microsoft Store, with additional Windows,
-macOS test, Android pre-release and Linux preview packages on the official
-[GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases).
+OYYO NotzUP is available from the Microsoft Store, from the Apple App Store for
+iPhone, iPad and compatible Apple-silicon Macs, and from the Snap Store for
+Linux. Additional Windows, Android, macOS test and Linux packages are on the
+official [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases).
 Every direct package has a disclosed signature status and checksum. This public
 repository contains user guides and approved release downloads, not the full
 proprietary source.
@@ -15,11 +16,14 @@ proprietary source.
   [Microsoft Store package](https://apps.microsoft.com/detail/9NX0604FJ0XN), or
   follow the [Windows desktop installation guide](INSTALL_DESKTOP.md) for the
   disclosed unsigned direct installers.
-- **macOS:** follow the
-  [macOS installation and first-run guide](INSTALL_MACOS.md). The current
-  `1.0.27.0` universal offline DMG is an ad-hoc-signed, non-notarized test
-  build and requires checksum verification plus an informed Gatekeeper
-  override. The app installs offline; speech and AI model weights are separate.
+- **macOS:** install from the
+  [Apple App Store](https://apps.apple.com/app/id6826987959) on a Mac with
+  macOS 14 or later and an Apple M1 chip or later. The
+  [macOS installation guide](INSTALL_MACOS.md) also documents the optional
+  ad-hoc-signed, non-notarized legacy test DMG.
+- **iPhone and iPad:** install version 1.0.27 from the
+  [Apple App Store](https://apps.apple.com/app/id6826987959). No unofficial IPA
+  is distributed.
 - **Android:** follow the [mobile installation guide](INSTALL_MOBILE.md) and
   verify the APK checksum and signing-certificate digest.
 - **Linux:** follow the [Linux installation guide](INSTALL_LINUX.md) and verify

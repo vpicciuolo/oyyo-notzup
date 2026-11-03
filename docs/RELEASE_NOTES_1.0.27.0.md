@@ -2,7 +2,7 @@
 
 # OYYO NotzUP 1.0.27.0
 
-Version 1.0.27.0 brings the current NotzUP library and local-intelligence workflow to Windows, Android, macOS and Linux, with platform availability disclosed on the [download page](DOWNLOADS.md).
+Version 1.0.27.0 brings the current NotzUP library and local-intelligence workflow to Windows, macOS, iPhone, iPad, Android and Linux, with exact Store and direct-package availability disclosed on the [download page](DOWNLOADS.md). The [Apple App Store release](https://apps.apple.com/app/id6826987959) is live for iPhone and iPad and is compatible with Apple-silicon Macs that meet Apple's current requirements.
 
 ## Main improvements
 

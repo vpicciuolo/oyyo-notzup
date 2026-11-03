@@ -2,15 +2,17 @@
 
 # Install and run OYYO NotzUP on macOS
 
-This guide covers the public `1.0.27.0` offline test DMG. It contains
-one universal application for Intel and Apple silicon Macs. It is ad-hoc
-signed and **not notarized by Apple**, so it is not the production direct-
-download release and macOS can block its first launch.
+The recommended installation is the public
+[Apple App Store release](https://apps.apple.com/app/id6826987959). Apple lists
+compatibility for macOS 14 or later on an Apple M1 chip or later. This guide
+also documents the optional `1.0.27.0` universal offline test DMG for informed
+testing on Intel or Apple-silicon Macs. That legacy DMG is ad-hoc signed and
+**not notarized by Apple**, so macOS can block its first launch.
 
 ## Requirements
 
-- macOS 11 or later;
-- an Intel or Apple silicon Mac;
+- App Store route: macOS 14 or later and an Apple M1 chip or later;
+- optional legacy DMG route: macOS 11 or later on Intel or Apple silicon;
 - about 50 MB for the downloaded DMG and installed application, plus storage
   for captures, imports and optional local models;
 - internet access for GitHub download, first sign-in, verified model download,
@@ -18,8 +20,21 @@ download release and macOS can block its first launch.
 - microphone and screen/system-audio permissions only for capture modes you
   choose.
 
-This is a test release. Back up important work and do not use it as the only
-copy of a recording.
+Back up important work and do not keep the only copy of a recording in any
+single application or device.
+
+## Recommended: install from the Apple App Store
+
+1. Open the official [OYYO AI NotzUP App Store page](https://apps.apple.com/app/id6826987959).
+2. Confirm the developer, product name and compatibility shown by Apple.
+3. Choose **Get** or the download button and let the App Store install the app.
+4. Open NotzUP from **Applications** and approve only the permissions required
+   for the capture mode you choose.
+
+The App Store is the recommended route because Apple manages delivery and
+updates. The remaining numbered steps apply only to the optional legacy DMG.
+
+## Optional legacy test DMG
 
 ## 1. Download only from the official release
 
@@ -185,15 +200,15 @@ version-specific path and you have backed up required work.
 - Minimum configured macOS version: `11.0`
 - Signature: ad-hoc test signature
 - Apple notarization: not performed
-- Mac App Store: separate `1.0.27` build `7` is in TestFlight Beta App Review
+- Apple App Store: version `1.0.27` is publicly available for compatible
+  Apple-silicon Macs at https://apps.apple.com/app/id6826987959
 - Runtime checks: cold launch, local-library loading and microphone-device
   discovery passed on Apple silicon; physical recording, Intel execution and
   minimum-OS execution were not completed
 - SHA-256: `eff66f53e3aead572ef1ce31900425ce79536330514543050dec9d2b36162117`
 
-The production DMG will be published separately after Developer ID signing,
-Apple notarization and supported-device QA. The Mac App Store build follows a
-separate Apple review route.
+The direct DMG remains an optional non-notarized test route. Prefer the App
+Store unless you specifically need the disclosed legacy package.
 
 ## Help
 

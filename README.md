@@ -9,15 +9,14 @@
 **Capture anything. Understand it locally.**
 
 [![Get it from Microsoft](https://img.shields.io/badge/Microsoft%20Store-Get%20OYYO%20AI%20NotzUP-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9NX0604FJ0XN)
-[![App Store — iPhone and iPad](https://img.shields.io/badge/App%20Store-iPhone%20%26%20iPad-111827?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6826987959)
+[![App Store — iPhone, iPad and Mac](https://img.shields.io/badge/App%20Store-iPhone%2C%20iPad%20%26%20Mac-111827?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6826987959)
 [![Windows direct installer](https://img.shields.io/badge/Windows-Direct%20installer%20(unsigned)-2563EB?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-windows)
-[![macOS test DMG](https://img.shields.io/badge/macOS-1.0.27.0%20Universal%20DMG-111827?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-macos-offline-test)
 [![Android direct download](https://img.shields.io/badge/Android-Signed%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android)
 [![Get it from the Snap Store](https://img.shields.io/badge/Snap%20Store-Install%20OYYO%20NotzUP-82BEA0?style=for-the-badge&logo=snapcraft&logoColor=111827)](https://snapcraft.io/oyyo-notzup)
 [![Linux GUI and CLI](https://img.shields.io/badge/Linux-GUI%20%2B%20CLI-FCC624?style=for-the-badge&logo=linux&logoColor=111827)](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux)
 [![All verified releases](https://img.shields.io/badge/GitHub-Verified%20Releases-181717?style=for-the-badge&logo=github)](https://github.com/vpicciuolo/oyyo-notzup/releases)
 
-[Download options](docs/DOWNLOADS.md) · [1.0.27.0 release notes](docs/RELEASE_NOTES_1.0.27.0.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Offline translation and accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [App Store](https://apps.apple.com/app/id6826987959) · [Android preview](docs/DOWNLOADS.md#android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
+[Download options](docs/DOWNLOADS.md) · [1.0.27.0 release notes](docs/RELEASE_NOTES_1.0.27.0.md) · [Complete feature guide](docs/FEATURES.md) · [User guide](docs/USER_GUIDE.md) · [Offline translation and accessibility](docs/OFFLINE_TRANSLATION_AND_ACCESSIBILITY.md) · [Mobile barcode inventory](docs/MOBILE_BARCODE_INVENTORY.md) · [Booking pages](docs/PUBLIC_BOOKING_PAGES.md) · [Encrypted backup and storage](docs/ENCRYPTED_BACKUP_AND_STORAGE.md) · [Local-first privacy](docs/LOCAL_FIRST_PRIVACY.md) · [Windows Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) · [Apple App Store](https://apps.apple.com/app/id6826987959) · [Snap Store](https://snapcraft.io/oyyo-notzup) · [Android APK](docs/DOWNLOADS.md#android) · [NotzUP website](https://notzup.com/) · [Help & FAQ](docs/FAQ.md) · [Support](mailto:support@oyyo.one)
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-2563EB?style=for-the-badge&logo=windows11&logoColor=white)
 ![Local processing](https://img.shields.io/badge/processing-on--device-059669?style=for-the-badge)
@@ -25,7 +24,7 @@
 
 
 <a href="https://apps.microsoft.com/detail/9NX0604FJ0XN"><img src="assets/microsoft-store-badge.svg" alt="Download NotzUp for Windows from Microsoft Store" height="44"></a>
-<a href="https://apps.apple.com/app/id6826987959"><img src="assets/app-store-badge.svg" alt="Download NotzUp for iPhone and iPad on the App Store" height="44"></a>
+<a href="https://apps.apple.com/app/id6826987959"><img src="assets/app-store-badge.svg" alt="Download NotzUp for iPhone, iPad and compatible Mac on the App Store" height="44"></a>
 
 
 </div>
@@ -52,13 +51,15 @@ Features vary by platform, hardware, permissions, plan and installed local packs
 | --- | --- | --- |
 | Windows | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | Available now |
 | iPhone and iPad | [App Store](https://apps.apple.com/app/id6826987959) | Available now |
-| macOS | [Universal offline test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-macos-offline-test) | Test prerelease; ad-hoc signed, not notarized |
+| macOS | [Apple App Store](https://apps.apple.com/app/id6826987959) | Available for macOS 14+ on Apple M1 or later; optional legacy test DMG is available separately |
 | Android | [Signed APK](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.0-android) | Direct preview; Google Play remains in closed testing |
 | Linux | [Snap Store](https://snapcraft.io/oyyo-notzup) · [Desktop and CLI packages](https://github.com/vpicciuolo/oyyo-notzup/releases/tag/v1.0.27.0-linux) | Preview; Snap uses the `latest/edge` channel |
 
 <a href="https://snapcraft.io/oyyo-notzup"><img src="assets/snap-store-badge.svg" alt="Get NotzUp from the Snap Store — edge preview channel" height="44"></a>
 
 A free NotzUp account is required to sign in. [Installation details and checksums](docs/DOWNLOADS.md) include alternate Windows installers and platform-specific instructions.
+
+> Use the platform stores above or an immutable asset from the official [GitHub Releases page](https://github.com/vpicciuolo/oyyo-notzup/releases). The optional macOS `1.0.27.0` universal offline test DMG remains ad-hoc signed and not notarized; the App Store is the recommended Mac installation route on compatible Apple-silicon Macs.
 
 ## Why NotzUP
 
@@ -128,12 +129,12 @@ The [Download options](docs/DOWNLOADS.md) page is the canonical availability lis
 | Platform | Store channel | Direct GitHub download | Current availability |
 | --- | --- | --- | --- |
 | Windows 10/11 x64 | [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN) | [Setup EXE](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64-Setup.exe) · [MSI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-windows/OYYO-NotzUP-1.0.0-Windows-x64.msi) | **Store available**; direct installers are unsigned and require manual approval on some PCs |
-| macOS 11+; Intel or Apple silicon | Mac App Store after review | [Universal 1.0.27.0 offline test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-macos-offline-test/OYYO-NotzUP-1.0.27.0-macOS-universal-offline.dmg) | **Test prerelease available**; app installs offline, model weights are separate; ad-hoc signed and not notarized |
+| macOS 14+; Apple M1 or later | [Apple App Store](https://apps.apple.com/app/id6826987959) | [Legacy universal 1.0.27.0 offline test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-macos-offline-test/OYYO-NotzUP-1.0.27.0-macOS-universal-offline.dmg) | **App Store available**; Apple lists compatibility for Apple-silicon Macs. The legacy DMG remains a non-notarized test build |
 | Android | Google Play (closed testing/review) | [Signed arm64 APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-arm64-v8a.apk) or [universal APK](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.0-android/OYYO-AI-NotzUP-Android-1.0.0-universal.apk) | Signed 1.0.0 build 1000026 available; the same build is in closed-test review and production access is not yet available |
-| iPhone and iPad | [Apple App Store](https://apps.apple.com/app/id6826987959) | No public sideload package | **Available on the App Store** |
+| iPhone and iPad | [Apple App Store](https://apps.apple.com/app/id6826987959) | No public sideload package | **Version 1.0.27 available**; no unofficial IPA is distributed |
 | Linux x64 | [Snap Store — latest/edge](https://snapcraft.io/oyyo-notzup) | [Snap](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.snap) · [AppImage](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.AppImage) · [DEB](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.deb) · [RPM](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-1.0.27.0-Linux-x86_64.rpm) · [CLI](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-linux/OYYO-NotzUP-CLI-1.0.27.0-Linux-x86_64.tar.gz) | **Snap Store 1.0.27.0 revision 3 on `latest/edge`**; strict CLI and GUI validation passed; physical Linux permission QA remains before stable promotion |
 
-The Microsoft Store and Snap Store links are the recommended Store routes for their platforms. OYYO NotzUP is currently published to Snap's `latest/edge` channel while physical Linux permission QA continues. The Windows direct installers are provided for users who explicitly prefer a traditional setup wizard or MSI and understand that version 1.0.0 is not Authenticode-signed.
+The Microsoft Store, Apple App Store and Snap Store links are the recommended Store routes for their platforms. OYYO NotzUP is published to Snap's `latest/edge` channel while physical Linux permission QA continues. The Windows direct installers are provided for users who explicitly prefer a traditional setup wizard or MSI and understand that version 1.0.0 is not Authenticode-signed.
 
 ### Install Windows from the command line
 
@@ -155,7 +156,11 @@ sudo snap install oyyo-notzup --edge
 
 The edge channel is the tested pre-stable Store channel and receives automatic Snap updates. Use the [Linux installation guide](docs/INSTALL_LINUX.md) for permissions, direct packages and CLI details.
 
-### Install the macOS test build
+### Install on iPhone, iPad or a compatible Mac
+
+Open the official [OYYO AI NotzUP App Store page](https://apps.apple.com/app/id6826987959). Version 1.0.27 is available for iPhone and iPad. Apple also lists the app as compatible with Macs running macOS 14 or later on an Apple M1 chip or later. The App Store is the recommended Mac route because Apple handles delivery and updates.
+
+### Optional legacy macOS test build
 
 Download the [universal macOS 1.0.27.0 offline test DMG](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-macos-offline-test/OYYO-NotzUP-1.0.27.0-macOS-universal-offline.dmg), its [SHA-256 manifest](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-macos-offline-test/SHA256SUMS), and the packaged [README](https://github.com/vpicciuolo/oyyo-notzup/releases/download/v1.0.27.0-macos-offline-test/README.txt). The app and interface install offline on Intel and Apple silicon Macs running macOS 11 or later. Speech and AI model weights are installed separately. This prerelease is ad-hoc signed and has not been notarized by Apple.
 
@@ -189,7 +194,7 @@ Every direct desktop release will include:
 
 ## Quick start
 
-1. Install Windows from the [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN), install the [macOS test build](docs/INSTALL_MACOS.md), or choose another live package on the [Download options](docs/DOWNLOADS.md) page.
+1. Install from the [Microsoft Store](https://apps.microsoft.com/detail/9NX0604FJ0XN), [Apple App Store](https://apps.apple.com/app/id6826987959), [Snap Store](https://snapcraft.io/oyyo-notzup), or choose an official direct package on the [Download options](docs/DOWNLOADS.md) page.
 2. Verify every direct download against the checksum in its tagged release. Review the disclosed unsigned or non-notarized status before manually overriding SmartScreen or Gatekeeper.
 3. Open NotzUP and approve only the microphone, screen, camera or notification permissions needed for the capture you choose.
 4. Allow the verified local speech model to download and pass integrity verification on first use.

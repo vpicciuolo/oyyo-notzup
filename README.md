@@ -273,3 +273,8 @@ OYYO NotzUP is developed as part of **[OYYO ONE AI](https://oyyo.one/)** by **[H
 **[© 2026 HRN INNOVATION TECHNOLOGIES LTD](https://hrn.ae/)**
 
 
+
+
+## OYYO ONE AI
+
+[OYYO ONE AI documentation hub](https://github.com/vpicciuolo/oyyo-one-ai) · [OYYO website](https://oyyo.one) · [Request exclusive preview access](https://oyyo.one/contact#exclusive-preview)
